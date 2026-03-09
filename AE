@@ -1,12 +1,596 @@
-          <div class="pm-bullet">Fear of failed IT projects damaging his early tenure</div>                                                                                                                    
-          <div class="pm-bullet">Needs proof of SAP integration before committing</div>                                                                                                                        
-          <div class="pm-bullet">Will want a pilot before full commitment — plan for it early</div>                                                                                                            
-        </div>    
+  <!DOCTYPE html>                                                                                                                                                                                              
+  <html lang="en">
+  <head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Lio - AE Interview Olivia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --bg:#05081A;--card:#0B0F24;--el:#101530;
+    --bdr:rgba(74,143,255,.12);--bdrg:rgba(74,143,255,.3);
+    --blue:#4A8FFF;--bluel:#7AB3FF;--purple:#7C5CFC;--purplel:#A98DFF;
+    --green:#10D48E;--orange:#FF8C42;--red:#FF4D6A;--gold:#F5C842;
+    --text:#EEF2FF;--sub:#8892B0;--muted:#4A5578;
+  }
+  html{scroll-behavior:smooth}
+  body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden}
+
+  /* ── NAV ── */
+  nav{position:fixed;top:0;left:0;right:0;z-index:200;height:52px;
+    background:rgba(5,8,26,.94);backdrop-filter:blur(18px);border-bottom:1px solid var(--bdr)}
+  .nav-in{max-width:1120px;margin:0 auto;padding:0 24px;height:100%;display:flex;align-items:center;justify-content:space-between}
+  .nav-logo{font-weight:900;font-size:.88rem;background:linear-gradient(135deg,var(--blue),var(--purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+  .nav-links{display:flex;gap:2px;list-style:none}
+  .nav-links a{color:var(--sub);text-decoration:none;font-size:.7rem;font-weight:600;padding:5px 10px;border-radius:7px;transition:all .18s}
+  .nav-links a:hover{color:var(--text);background:var(--el)}
+
+  /* ── PAGE TITLE ── */
+  .page-title{text-align:center;padding:96px 24px 60px;
+    background:radial-gradient(ellipse 70% 50% at 50% 0%,rgba(74,143,255,.07),transparent)}
+  .page-title h1{font-size:clamp(1.9rem,4vw,3.2rem);font-weight:900;letter-spacing:-.04em;
+    background:linear-gradient(135deg,var(--text) 40%,var(--bluel));
+    -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:10px}
+  .page-title p{color:var(--sub);font-size:.95rem;max-width:440px;margin:0 auto}
+
+  /* ── LAYOUT ── */
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+  .sec{padding:64px 0;border-top:1px solid var(--bdr)}
+
+  /* ── TYPE ── */
+  .lbl{display:inline-flex;align-items:center;gap:6px;font-size:.62rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--blue);margin-bottom:10px}
+  .dot{width:5px;height:5px;border-radius:50%;background:var(--blue);display:inline-block}
+  h2{font-size:clamp(1.25rem,2.2vw,1.8rem);font-weight:800;letter-spacing:-.03em;line-height:1.15;margin-bottom:6px}
+  h3{font-size:1rem;font-weight:700;letter-spacing:-.02em}
+  .sec-sub{color:var(--sub);font-size:.875rem;max-width:520px;margin-bottom:32px}
+  p{color:var(--sub);font-size:.875rem}
+
+  /* ── TAGS ── */
+  .tag{display:inline-block;font-size:.63rem;font-weight:600;padding:2px 8px;border-radius:5px;margin:2px 2px 0 0}
+  .tb{background:rgba(74,143,255,.1);color:var(--bluel)}
+  .tp{background:rgba(124,92,252,.1);color:var(--purplel)}
+  .tg{background:rgba(16,212,142,.1);color:var(--green)}
+  .to{background:rgba(255,140,66,.1);color:var(--orange)}
+  .tr{background:rgba(255,77,106,.1);color:var(--red)}
+  .tgold{background:rgba(245,200,66,.1);color:var(--gold)}
+
+  /* ══════ SECTION 01 — ICP ══════ */
+  .icp-intro{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:28px;align-items:start}
+  @media(max-width:700px){.icp-intro{grid-template-columns:1fr}}
+  .icp-intro-text{padding:20px 24px;background:var(--card);border:1px solid var(--bdr);border-radius:14px}
+  .icp-intro-text h3{margin-bottom:10px;font-size:.98rem}
+  .icp-intro-text p{font-size:.8rem;line-height:1.65}
+  .icp-who{padding:20px 24px;background:linear-gradient(135deg,rgba(74,143,255,.06),rgba(124,92,252,.06));
+    border:1px solid rgba(74,143,255,.2);border-radius:14px;position:relative;overflow:hidden}
+  .icp-who::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--blue),var(--purple))}
+  .icp-who h3{margin-bottom:12px;font-size:.98rem}
+  .who-row{display:flex;gap:10px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,.05);align-items:flex-start}
+  .who-row:last-child{border-bottom:none}
+  .who-k{font-size:.68rem;font-weight:700;color:var(--muted);min-width:90px;padding-top:2px;flex-shrink:0}
+  .who-v{font-size:.79rem;color:var(--text);line-height:1.5}
+
+  /* 5 persona cards */
+  .persona-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:32px}
+  @media(max-width:900px){.persona-grid{grid-template-columns:repeat(3,1fr)}}
+  @media(max-width:580px){.persona-grid{grid-template-columns:1fr 1fr}}
+  .persona-card{background:var(--card);border:1px solid var(--bdr);border-radius:14px;padding:18px;
+    transition:all .2s;position:relative;overflow:hidden}
+  .persona-card:hover{border-color:var(--bdrg);transform:translateY(-2px);box-shadow:0 6px 28px rgba(74,143,255,.07)}
+  .persona-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px}
+  .pc-role::before{background:var(--blue)}
+  .pc-org::before{background:var(--purple)}
+  .pc-pain::before{background:var(--red)}
+  .pc-mot::before{background:var(--green)}
+  .pc-demo::before{background:var(--orange)}
+  .pc-icon{font-size:1.4rem;margin-bottom:10px;display:block}
+  .pc-title{font-size:.62rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:8px}
+  .pc-role .pc-title{color:var(--blue)}
+  .pc-org .pc-title{color:var(--purplel)}
+  .pc-pain .pc-title{color:var(--red)}
+  .pc-mot .pc-title{color:var(--green)}
+  .pc-demo .pc-title{color:var(--orange)}
+  .pc-list{list-style:none;display:flex;flex-direction:column;gap:5px}
+  .pc-list li{font-size:.73rem;color:var(--sub);display:flex;gap:5px;align-items:flex-start;line-height:1.4}
+  .pc-list li::before{content:'·';color:var(--muted);flex-shrink:0;font-weight:700}
+
+  /* Arrow + GM target */
+  .icp-target-layout{display:grid;grid-template-columns:1fr 52px 1.3fr;gap:0;align-items:center;margin-bottom:36px}
+  @media(max-width:720px){.icp-target-layout{grid-template-columns:1fr;gap:16px}}
+  .icp-general-summary{background:var(--card);border:1px solid var(--bdr);border-radius:14px;padding:22px}
+  .icp-general-summary h4{font-size:.62rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--blue);margin-bottom:14px}
+  .ig-row{display:flex;gap:9px;padding:7px 0;border-bottom:1px solid rgba(255,255,255,.04);align-items:flex-start}
+  .ig-row:last-child{border-bottom:none}
+  .ig-k{font-size:.68rem;font-weight:600;color:var(--muted);min-width:88px;flex-shrink:0;padding-top:1px}
+  .ig-v{font-size:.78rem;color:var(--text);line-height:1.5}
+  .arr-col{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;padding:0 6px}
+  .arr-line{width:2px;height:32px;background:linear-gradient(180deg,var(--blue),var(--purple))}
+  .arr-head{width:0;height:0;border-left:6px solid transparent;border-right:6px solid transparent;border-top:10px solid var(--purple)}
+  .arr-txt{font-size:.52rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--blue);white-space:nowrap}
+  @media(max-width:720px){.arr-col{display:none}}
+  .gm-box{background:linear-gradient(135deg,rgba(74,143,255,.05),rgba(124,92,252,.05));
+    border:1px solid rgba(74,143,255,.22);border-radius:14px;padding:22px;position:relative;overflow:hidden}
+  .gm-box::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--blue),var(--purple))}
+  .gm-head{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+  .gm-logo{width:40px;height:40px;background:#0f1f3d;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:.58rem;font-weight:900;color:#5B9BD5;flex-shrink:0}
+  .gm-head h3{margin-bottom:1px}.gm-sub{font-size:.72rem;color:var(--sub)}
+  .gm-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:14px}
+  .gs{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.05);border-radius:7px;padding:8px 10px}
+  .gs .gv{font-size:.95rem;font-weight:800;color:var(--bluel);letter-spacing:-.02em}
+  .gs .gl{font-size:.57rem;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin-top:1px}
+  .signal{display:flex;gap:6px;font-size:.73rem;color:var(--sub);padding:6px 8px;
+    background:rgba(16,212,142,.05);border:1px solid rgba(16,212,142,.1);border-radius:6px;margin-bottom:5px;align-items:flex-start}
+  .signal::before{content:'▸';color:var(--green);flex-shrink:0;margin-top:1px;font-size:.72rem}
+
+  /* Champion */
+  .champion-card{background:var(--card);border:2px solid var(--gold);border-radius:16px;overflow:hidden;box-shadow:0 0 36px rgba(245,200,66,.07);margin-bottom:20px}
+  .ch-head{background:linear-gradient(135deg,rgba(245,200,66,.07),rgba(74,143,255,.05));
+    border-bottom:1px solid rgba(245,200,66,.14);padding:20px 24px;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+  .ch-av{width:52px;height:52px;border-radius:50%;background:linear-gradient(135deg,#2a4a7a,#142040);
+    display:flex;align-items:center;justify-content:center;font-size:1.1rem;font-weight:900;color:#6AABFF;
+    border:2px solid var(--gold);flex-shrink:0}
+  .ch-name{font-size:1rem;font-weight:800;margin-bottom:1px}
+  .ch-role{font-size:.75rem;color:var(--sub)}.ch-co{font-size:.7rem;color:var(--bluel);font-weight:600;margin-top:1px}
+  .ch-badge{margin-left:auto;background:rgba(245,200,66,.1);border:1px solid rgba(245,200,66,.22);
+    color:var(--gold);font-size:.62rem;font-weight:700;padding:3px 10px;border-radius:20px;letter-spacing:.07em}
+  .ch-body{padding:22px 24px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px}
+  @media(max-width:720px){.ch-body{grid-template-columns:1fr}}
+  .ch-sec h5{font-size:.58rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:9px}
+  .chal{display:flex;gap:8px;padding:8px 10px;background:rgba(255,77,106,.05);border:1px solid rgba(255,77,106,.1);border-radius:8px;margin-bottom:7px}
+  .cnum{font-size:.62rem;font-weight:800;color:var(--red);background:rgba(255,77,106,.1);
+    width:17px;height:17px;border-radius:4px;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
+  .cprob{font-size:.73rem;font-weight:600;color:var(--text);margin-bottom:2px}
+  .chelp{font-size:.68rem;color:var(--green)}
+  .why-item{padding:8px 10px;border-radius:8px;margin-bottom:6px}
+  .wy-b{background:rgba(74,143,255,.05);border:1px solid rgba(74,143,255,.12)}
+  .wy-p{background:rgba(124,92,252,.05);border:1px solid rgba(124,92,252,.12)}
+  .wy-n{background:rgba(245,200,66,.05);border:1px solid rgba(245,200,66,.12)}
+  .wlabel{font-size:.57rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;margin-bottom:2px}
+  .wy-b .wlabel{color:var(--blue)}.wy-p .wlabel{color:var(--purplel)}.wy-n .wlabel{color:var(--gold)}
+  .wtext{font-size:.73rem;color:var(--sub);line-height:1.5}
+  .irow{display:flex;gap:9px;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.04);align-items:flex-start}
+  .irow:last-child{border-bottom:none}
+  .ik{font-size:.68rem;font-weight:600;color:var(--muted);min-width:72px;flex-shrink:0;padding-top:1px}
+  .iv{font-size:.75rem;color:var(--text);line-height:1.5}
+  .quote-box{margin-top:10px;padding:8px 11px;background:rgba(245,200,66,.04);border:1px solid rgba(245,200,66,.12);border-radius:8px;font-size:.7rem;color:var(--sub);font-style:italic;line-height:1.55}
+
+  /* Methodology note */
+  .methodology{background:var(--card);border:1px solid var(--bdr);border-radius:12px;padding:18px 22px;display:flex;gap:16px;align-items:flex-start}
+  .meth-icon{font-size:1.3rem;flex-shrink:0;margin-top:2px}
+  .meth-text h5{font-size:.78rem;font-weight:700;margin-bottom:6px}
+  .meth-text p{font-size:.76rem;line-height:1.6}
+  .meth-tags{margin-top:10px}
+
+  /* ══════ SECTION 02 — OUTREACH ══════ */
+  .email-wrap{background:#0C0F22;border:1px solid var(--bdr);border-radius:16px;overflow:hidden;box-shadow:0 8px 48px rgba(0,0,0,.5)}
+  .echrome{background:#080B1C;border-bottom:1px solid var(--bdr);padding:10px 18px;display:flex;align-items:center;gap:8px}
+  .edots{display:flex;gap:5px}.ed{width:9px;height:9px;border-radius:50%}
+  .ed-r{background:#FF5F57}.ed-y{background:#FFBD2E}.ed-g{background:#28C840}
+  .ecompose{padding:22px 28px}
+  .ef{display:flex;gap:12px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,.05)}
+  .ek{font-size:.63rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);min-width:50px;padding-top:2px;flex-shrink:0}
+  .ev{font-size:.8rem;color:var(--text)}.ev .hl{color:var(--bluel);font-weight:600}
+  .esubj{font-size:1rem;font-weight:800}
+  .ebody{padding:20px 0 0 62px;font-size:.86rem;line-height:1.85}
+  .ebody p{color:var(--sub);margin-bottom:12px}.hook{color:var(--text);font-weight:600}
+  .stat-box{display:inline-flex;align-items:center;gap:6px;background:rgba(16,212,142,.07);border:1px solid rgba(16,212,142,.18);
+    border-radius:8px;padding:7px 12px;color:var(--green);font-weight:600;font-size:.78rem;margin-bottom:12px}
+  .cta-btn{display:inline-flex;align-items:center;gap:5px;background:linear-gradient(135deg,var(--blue),var(--purple));
+    color:#fff;font-size:.77rem;font-weight:700;padding:8px 16px;border-radius:8px;text-decoration:none;margin-top:4px}
+  .esig{border-top:1px solid rgba(255,255,255,.05);margin-top:16px;padding-top:12px}
+  .esig-name{font-weight:800;color:var(--text);font-size:.86rem}
+  .esig-sub,.esig-co{font-size:.69rem;color:var(--muted)}.esig-co{color:var(--bluel);font-weight:600}
+  .annot-row{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:16px}
+  @media(max-width:640px){.annot-row{grid-template-columns:1fr}}
+  .annot{padding:12px 14px;background:rgba(74,143,255,.04);border:1px solid rgba(74,143,255,.1);border-left:3px solid var(--blue);border-radius:0 8px 8px 0}
+  .annot.purple{background:rgba(124,92,252,.04);border-color:rgba(124,92,252,.1);border-left-color:var(--purple)}
+  .annot.green{background:rgba(16,212,142,.04);border-color:rgba(16,212,142,.1);border-left-color:var(--green)}
+  .annot-ttl{font-size:.58rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px}
+  .annot .annot-ttl{color:var(--blue)}.annot.purple .annot-ttl{color:var(--purplel)}.annot.green .annot-ttl{color:var(--green)}
+  .annot p{font-size:.72rem}
+
+  /* ══════ SECTION 03 — DEAL ══════ */
+  .pipeline-lbl{font-size:.62rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--blue);margin-bottom:12px;display:block}
+  .tabs{display:flex;overflow-x:auto;border:1px solid var(--bdr);border-radius:12px 12px 0 0;border-bottom:none}
+  .tab{flex:1;min-width:88px;padding:11px 8px;text-align:center;cursor:pointer;
+    background:var(--card);border-right:1px solid var(--bdr);transition:all .18s;user-select:none}
+  .tab:first-child{border-radius:11px 0 0 0}.tab:last-child{border-right:none;border-radius:0 11px 0 0}
+  .tab:hover{background:var(--el)}
+  .tab.active{background:rgba(74,143,255,.09);border-bottom:2px solid var(--blue)}
+  .tab-num{font-size:.56rem;font-weight:700;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-bottom:2px}
+  .tab-name{font-size:.7rem;font-weight:700;color:var(--text)}
+  .tab-wk{font-size:.6rem;color:var(--muted);margin-top:1px}
+  .tab.active .tab-name{color:var(--bluel)}
+  .panel-wrap{background:var(--card);border:1px solid var(--bdr);border-radius:0 0 12px 12px;padding:22px;border-top:none;margin-bottom:48px}
+  .sp-goal-lbl{font-size:.58rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--blue);margin-bottom:4px}
+  .sp-goal{background:rgba(74,143,255,.07);border:1px solid rgba(74,143,255,.14);border-radius:8px;padding:9px 13px;font-size:.78rem;color:var(--bluel);margin-bottom:16px;line-height:1.5}
+  .sp-cols{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:540px){.sp-cols{grid-template-columns:1fr}}
+  .sp-col h5{font-size:.58rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:7px}
+  .sp-col ul{list-style:none;display:flex;flex-direction:column;gap:5px}
+  .sp-col li{font-size:.75rem;color:var(--sub);display:flex;gap:6px;align-items:flex-start;line-height:1.5}
+  .sp-col li::before{content:'→';color:var(--blue);font-size:.66rem;flex-shrink:0;margin-top:2px}
+
+  /* Political map */
+  .pm-champion{background:linear-gradient(135deg,rgba(245,200,66,.07),rgba(74,143,255,.05));
+    border:2px solid var(--gold);border-radius:16px;padding:20px 22px;box-shadow:0 0 36px rgba(245,200,66,.07);margin-bottom:18px}
+  .pm-badge{display:inline-block;background:rgba(245,200,66,.1);border:1px solid rgba(245,200,66,.22);color:var(--gold);font-size:.62rem;font-weight:700;padding:3px
+  10px;border-radius:20px;letter-spacing:.07em;margin-bottom:10px}
+  .pm-name{font-size:1rem;font-weight:800;margin-bottom:2px}
+  .pm-role{font-size:.75rem;color:var(--sub)}.pm-co{font-size:.7rem;color:var(--bluel);font-weight:600;margin-top:1px}
+  .pm-inner{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
+  @media(max-width:580px){.pm-inner{grid-template-columns:1fr}}
+  .pm-inner-col h6{font-size:.58rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px}
+  .pm-inner-col.g h6{color:var(--green)}.pm-inner-col.r h6{color:var(--orange)}
+  .pm-bullet{display:flex;gap:5px;font-size:.72rem;color:var(--sub);margin-bottom:5px;align-items:flex-start;line-height:1.45}
+  .g .pm-bullet::before{content:'✓';color:var(--green);flex-shrink:0;font-size:.66rem;margin-top:2px}
+  .r .pm-bullet::before{content:'⚡';color:var(--orange);flex-shrink:0;font-size:.66rem;margin-top:1px}
+  .pm-action{font-size:.68rem;color:var(--blue);font-weight:600;margin-top:8px}
+  .pm-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+  @media(max-width:700px){.pm-grid{grid-template-columns:1fr}}
+  .pm-card{background:var(--card);border:1px solid var(--bdr);border-radius:13px;padding:16px;transition:all .2s}
+  .pm-card:hover{border-color:var(--bdrg);transform:translateY(-2px)}
+  .pm-card .pm-name{font-size:.88rem}.pm-card .pm-role{font-size:.7rem;margin-bottom:6px}
+  .pm-role-badge{display:inline-block;font-size:.6rem;font-weight:700;padding:2px 8px;border-radius:5px;margin-bottom:10px}
+  .pm-section{margin-bottom:8px}
+  .pm-section h6{font-size:.57rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
+  .pm-card .pm-action{display:block;margin-top:8px;font-size:.67rem;color:var(--blue);font-weight:600;
+    padding-top:8px;border-top:1px solid rgba(255,255,255,.05)}
+
+  /* ══════ SECTION 04 — EXPAND ══════ */
+  .expand-charts{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:36px}
+  @media(max-width:700px){.expand-charts{grid-template-columns:1fr}}
+  .chart-box{background:var(--card);border:1px solid var(--bdr);border-radius:14px;padding:20px}
+  .chart-box h4{font-size:.84rem;font-weight:700;margin-bottom:3px}
+  .chart-box .chart-sub{font-size:.72rem;color:var(--sub);margin-bottom:14px}
+  .chart-box canvas{display:block;width:100%!important;height:240px!important}
+  .levers-row{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:40px}
+  @media(max-width:700px){.levers-row{grid-template-columns:1fr}}
+  .levers-col-title{font-size:.62rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:10px}
+  .lv1-title{color:var(--blue)}.lv2-title{color:var(--gold)}
+  .lever{background:var(--card);border:1px solid var(--bdr);border-radius:11px;padding:14px 16px;
+    display:flex;gap:10px;align-items:flex-start;transition:all .2s;position:relative;overflow:hidden;margin-bottom:9px}
+  .lever::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px}
+  .la::before{background:var(--blue)}.lb::before{background:var(--purple)}
+  .lc::before{background:var(--green)}.ld_::before{background:var(--gold)}
+  .lever:hover{border-color:var(--bdrg);transform:translateX(2px)}
+  .lever-ico{font-size:1rem;flex-shrink:0;width:28px;height:28px;display:flex;align-items:center;justify-content:center;border-radius:6px;background:rgba(255,255,255,.03)}
+  .lever-c .lt{font-size:.78rem;font-weight:700;margin-bottom:2px}
+  .lever-c .ld{font-size:.7rem;color:var(--sub);line-height:1.45}
+  .lever-d{margin-left:auto;font-size:.67rem;font-weight:800;padding:2px 8px;border-radius:5px;flex-shrink:0;white-space:nowrap}
+  .la .lever-d{background:rgba(74,143,255,.1);color:var(--bluel)}
+  .lb .lever-d{background:rgba(124,92,252,.1);color:var(--purplel)}
+  .lc .lever-d{background:rgba(16,212,142,.1);color:var(--green)}
+  .ld_ .lever-d{background:rgba(245,200,66,.1);color:var(--gold)}
+  .principles{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+  @media(max-width:640px){.principles{grid-template-columns:1fr}}
+  .pr{background:var(--card);border:1px solid var(--bdr);border-radius:11px;padding:15px;transition:all .2s}
+  .pr:hover{border-color:var(--bdrg)}
+  .pr-n{font-size:.56rem;font-weight:800;color:var(--purplel);letter-spacing:.1em;text-transform:uppercase;margin-bottom:5px}
+  .pr h5{font-size:.78rem;font-weight:700;margin-bottom:4px}
+  .pr p{font-size:.7rem}
+
+  /* ══════ APPENDIX — MEDDIC + TED ══════ */
+  .appendix{background:rgba(5,8,26,.6);border-top:1px solid var(--bdr);padding:56px 0}
+  .fw-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  @media(max-width:640px){.fw-grid{grid-template-columns:1fr}}
+  .fw{background:var(--card);border:1px solid var(--bdr);border-radius:14px;padding:20px}
+  .fw-ttl{font-size:.6rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:13px}
+  .fw .btl{color:var(--blue)}.fw .ptl{color:var(--purplel)}
+  .mrow{display:flex;gap:10px;padding:7px 0;border-bottom:1px solid rgba(255,255,255,.04);align-items:flex-start}
+  .mrow:last-child{border-bottom:none}
+  .mltr{font-size:1.15rem;font-weight:900;background:linear-gradient(135deg,var(--blue),var(--purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;min-width:24px;lin
+  e-height:1}
+  .mword{font-size:.7rem;font-weight:700;color:var(--text);margin-bottom:1px}
+  .mdef{font-size:.68rem;color:var(--sub);line-height:1.45}
+  .mgm{font-size:.66rem;color:var(--green);margin-top:2px}
+  .ted-lvl{padding:10px 12px;border-radius:8px;margin-bottom:4px;border-left:3px solid transparent}
+  .t1{background:rgba(74,143,255,.05);border-color:var(--blue)}
+  .t2{background:rgba(124,92,252,.05);border-color:var(--purple)}
+  .t3{background:rgba(245,200,66,.05);border-color:var(--gold)}
+  .tlbl{font-size:.56rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:2px}
+  .t1 .tlbl{color:var(--blue)}.t2 .tlbl{color:var(--purplel)}.t3 .tlbl{color:var(--gold)}
+  .tq{font-size:.76rem;font-weight:600;color:var(--text);margin-bottom:2px}
+  .ta{font-size:.71rem;color:var(--sub);line-height:1.45}
+  .ted-arr{text-align:center;color:var(--muted);font-size:.68rem;padding:2px 0}
+  .ted-note{margin-top:10px;padding:8px 12px;background:rgba(245,200,66,.05);border:1px solid rgba(245,200,66,.15);border-radius:8px;font-size:.7rem;color:var(--gold)}
+
+  /* ── FOOTER ── */
+  footer{border-top:1px solid var(--bdr);padding:32px 0;text-align:center}
+  footer
+  .fl{font-size:.9rem;font-weight:900;background:linear-gradient(135deg,var(--blue),var(--purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:4px}
+  footer p{font-size:.7rem;color:var(--muted)}
+  </style>
+  </head>
+  <body>
+
+  ---
+  Lines 339–518 — NAV + PAGE TITLE + SECTION 01 ICP
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-in">
+      <span class="nav-logo">lio</span>
+      <ul class="nav-links">
+        <li><a href="#icp">01 ICP</a></li>
+        <li><a href="#outreach">02 Outreach</a></li>
+        <li><a href="#deal">03 Deal</a></li>
+        <li><a href="#expand">04 Expand</a></li>
+        <li><a href="#appendix">Frameworks</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE TITLE -->
+  <div class="page-title">
+    <h1>AE Interview Olivia</h1>
+  </div>
+
+  <!-- ════════════════ 01 ICP ════════════════ -->
+  <section class="sec" id="icp">
+  <div class="wrap">
+    <div class="lbl"><span class="dot"></span> 01 ICP + Pipeline Generation</div>
+    <h2 style="margin-bottom:28px">Ideal Customer Profile</h2>
+
+    <!-- 5 persona dimension cards -->
+    <div class="persona-grid">
+      <div class="persona-card pc-role">
+        <span class="pc-icon">👤</span>
+        <div class="pc-title">Role &amp; Budget</div>
+        <ul class="pc-list">
+          <li>CPO or VP Procurement</li>
+          <li>Owns procurement tech budget</li>
+          <li>Champions digital transformation internally</li>
+          <li>Under pressure from CFO for savings</li>
+          <li>Under pressure from CEO for strategic value</li>
+        </ul>
+      </div>
+      <div class="persona-card pc-org">
+        <span class="pc-icon">🏢</span>
+        <div class="pc-title">Org Profile</div>
+        <ul class="pc-list">
+          <li>Revenue &gt;€1B, global ops</li>
+          <li>100–600 FTEs in procurement</li>
+          <li>20–100 FTEs in indirect procurement</li>
+          <li>Fragmented supplier network</li>
+          <li>Legacy ERP (SAP Ariba) + Excel-heavy</li>
+        </ul>
+      </div>
+      <div class="persona-card pc-pain">
+        <span class="pc-icon">⚡</span>
+        <div class="pc-title">Pain Points</div>
+        <ul class="pc-list">
+          <li>Manual approvals slow everything down</li>
+          <li>Employees complain about buying process</li>
+          <li>Non-compliant / maverick spend rising</li>
+          <li>No negotiation leverage on tail spend</li>
+          <li>Siloed data, no real-time savings visibility</li>
+        </ul>
+      </div>
+      <div class="persona-card pc-mot">
+        <span class="pc-icon">🎯</span>
+        <div class="pc-title">Motivations</div>
+        <ul class="pc-list">
+          <li>Automate operational drudgery</li>
+          <li>10–20% savings via AI negotiation</li>
+          <li>Policy adherence without headcount</li>
+          <li>Real-time insights for strategic decisions</li>
+          <li>Quantifiable ROI for the CFO</li>
+        </ul>
+      </div>
+      <div class="persona-card pc-demo">
+        <span class="pc-icon">📍</span>
+        <div class="pc-title">Demographics</div>
+        <ul class="pc-list">
+          <li>Europe-based (primary market)</li>
+          <li>15+ years in procurement / supply chain</li>
+          <li>Engineer or finance background</li>
+          <li>Skeptical of vendor overpromise</li>
+          <li>Values DAX/Fortune 500 peer proof</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ICP → GM -->
+    <div style="margin-bottom:20px">
+      <div class="lbl"><span class="dot"></span> This Case Study</div>
+      <h2 style="margin-bottom:4px">Applying the ICP — General Motors</h2>
+      <p class="sec-sub">For this case study, the ICP contact is <strong style="color:var(--text)">Shilpan Amin, Global CPO at General Motors</strong> — a Fortune 6 automotive OEM that checks every box.</p>
+    </div>
+
+    <div class="icp-target-layout">
+      <div class="icp-general-summary">
+        <h4>ICP Criteria — Automotive / US</h4>
+        <div class="ig-row"><span class="ig-k">Industry</span><span class="ig-v">Automotive OEM / Large Manufacturing</span></div>
+        <div class="ig-row"><span class="ig-k">Geography</span><span class="ig-v">United States (HQ), global operations</span></div>
+        <div class="ig-row"><span class="ig-k">Revenue</span><span class="ig-v">&gt;$5B annual — ideally Fortune 100</span></div>
+        <div class="ig-row"><span class="ig-k">Employees</span><span class="ig-v">10,000 – 200,000 total headcount</span></div>
+        <div class="ig-row"><span class="ig-k">Proc. Team</span><span class="ig-v">100–600 FTEs in procurement</span></div>
+        <div class="ig-row"><span class="ig-k">Indirect Proc.</span><span class="ig-v">20–100 FTEs managing indirect spend (IT, facilities, services, MRO)</span></div>
+        <div class="ig-row"><span class="ig-k">Pain</span><span class="ig-v">Manual workflows, compliance gaps, cost-cutting mandate, employee frustration</span></div>
+        <div class="ig-row"><span class="ig-k">Trigger</span><span class="ig-v">New CPO in role, cost reduction program, headcount freeze</span></div>
+      </div>
+
+      <div class="arr-col">
+        <div class="arr-line"></div>
+        <div class="arr-txt">GM</div>
+        <div class="arr-head"></div>
+      </div>
+
+      <div class="gm-box">
+        <div class="gm-head">
+          <div class="gm-logo">GM</div>
+          <div><h3>General Motors Co.</h3><div class="gm-sub">Fortune 6 · Automotive OEM · Detroit, MI</div></div>
+        </div>
+        <div class="gm-stats">
+          <div class="gs"><div class="gv">$187B</div><div class="gl">Revenue</div></div>
+          <div class="gs"><div class="gv">160k+</div><div class="gl">Employees</div></div>
+          <div class="gs"><div class="gv">18,000+</div><div class="gl">Suppliers</div></div>
+        </div>
+        <div class="signal">Board mandate to reduce operational costs — procurement must contribute measurably to efficiency targets</div>
+        <div class="signal">Internal complaints about slow, manual indirect buying processes — employees frustrated, buyers overwhelmed</div>
+        <div class="signal">Compliance gaps in indirect categories (IT, facilities, services) — audit risk, maverick spend rising</div>
+        <div class="signal">Same procurement volume expected with a frozen headcount — "do more with less" pressure is real</div>
+        <div class="signal">New CPO (Shilpan Amin, April 2025) — first 6 months define mandate, maximum receptivity to change</div>
+      </div>
+    </div>
+
+    <!-- Champion card -->
+    <div class="lbl"><span class="dot" style="background:var(--gold)"></span> ICP Contact — Target Individual</div>
+    <div class="champion-card">
+      <div class="ch-head">
+        <div class="ch-av">SA</div>
+        <div>
+          <div class="ch-name">Shilpan Amin</div>
+          <div class="ch-role">Global Chief Procurement &amp; Supply Chain Officer</div>
+          <div class="ch-co">General Motors · Appointed April 2025</div>
+        </div>
+        <div class="ch-badge">★ ICP Contact</div>
+      </div>
+      <div class="ch-body">
+        <div class="ch-sec">
+          <h5>Top 3 Challenges</h5>
+          <div class="chal"><div class="cnum">1</div><div><div class="cprob">Manual indirect procurement at scale</div><div class="chelp">→ Thousands of requests routed by hand — employees complain, buyers
+  can't keep up</div></div></div>
+          <div class="chal"><div class="cnum">2</div><div><div class="cprob">Compliance gaps &amp; maverick spend</div><div class="chelp">→ Inconsistent policy adherence across 160k+ employees buying in
+  indirect categories</div></div></div>
+          <div class="chal"><div class="cnum">3</div><div><div class="cprob">Cost efficiency with frozen headcount</div><div class="chelp">→ Must deliver more with same team size — automation is the only
+  lever</div></div></div>
+        </div>
+        <div class="ch-sec">
+          <h5>His "Why"</h5>
+          <div class="why-item wy-b"><div class="wlabel">Business</div><div class="wtext">GM needs to run leaner. Procurement is one of the last large manual functions — the board knows it and Shilpan has
+  the mandate to fix it.</div></div>
+          <div class="why-item wy-p"><div class="wlabel">Professional</div><div class="wtext">3 months into this role after running GM International. Needs a fast, visible win to establish himself with Mary
+  Barra and Paul Jacobson.</div></div>
+          <div class="why-item wy-n"><div class="wlabel">Personal</div><div class="wtext">Engineer by training. Loves rigorous systems. Wants to be the CPO who modernized GM's procurement for the next
+  era.</div></div>
+        </div>
+        <div class="ch-sec">
+          <h5>Background</h5>
+          <div class="irow"><span class="ik">Career</span><span class="iv">GM since 1996 · engineer → supply chain → GM International SVP → CPO 2025</span></div>
+          <div class="irow"><span class="ik">Education</span><span class="iv">MSU Engineering · RPI M.S. · USC MBA · Stanford Leadership</span></div>
+          <div class="irow"><span class="ik">Style</span><span class="iv">Data-driven, debates rigorously, hates groupthink — bring substance, not slides</span></div>
+          <div class="quote-box">"If you create a strong culture where everyone brings their best self, the results will come." — Shilpan Amin</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Methodology -->
+    <div class="methodology">
+      <div class="meth-icon">🔍</div>
+      <div class="meth-text">
+        <h5>How to Scale This Target List</h5>
+        <p>From this persona, prioritize outbound to CPOs in DAX/MDAX or Fortune 500 companies with visible procurement challenges — flagged via annual reports mentioning cost optimization, digital
+  transformation initiatives, or new executive hires. Track in CRM with notes on recent triggers.</p>
+        <div class="meth-tags" style="margin-top:8px">
+          <span class="tag tb">LinkedIn Sales Navigator</span>
+          <span class="tag tp">Apollo.io</span>
+          <span class="tag tg">Procurement press / trade media</span>
+          <span class="tag to">Annual report scanning</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  ---
+  Lines 520–701 — SECTION 02 OUTREACH + SECTION 03 DEAL
+
+  <!-- ════════════════ 02 OUTREACH ════════════════ -->
+  <section class="sec" id="outreach">
+  <div class="wrap">
+    <div class="lbl"><span class="dot"></span> 02 Outreach</div>
+    <h2>The Cold Email</h2>
+    <p class="sec-sub">Brief. Specific. Anchored to what's driving him right now — not a generic AI pitch.</p>
+
+    <div class="email-wrap">
+      <div class="echrome">
+        <div class="edots"><div class="ed ed-r"></div><div class="ed ed-y"></div><div class="ed ed-g"></div></div>
+        <span style="font-size:.67rem;color:var(--muted);margin-left:9px">New Message — Sent</span>
+      </div>
+      <div class="ecompose">
+        <div class="ef"><span class="ek">To</span><span class="ev"><span class="hl">Shilpan Amin</span> · Global CPO &amp; Supply Chain Officer, General Motors</span></div>
+        <div class="ef"><span class="ek">Subject</span><span class="ev esubj">GM's indirect procurement — what automation can actually move</span></div>
+        <div class="ebody">
+          <p><span class="hook">Shilpan,</span></p>
+          <p>Three months into the role, and indirect procurement is probably where most of the friction lives — employees frustrated with slow processes, buyers drowning in manual approvals, compliance gaps
+   showing up in audits.</p>
+          <p>That operational layer is fixable. We run AI agents that handle the full request-to-order cycle autonomously: routing, compliance checks, supplier coordination, approvals. Buyers stop
+  firefighting and start buying strategically.</p>
+          <div class="stat-box">↑ Comparable automotive OEM: 60% faster cycle time + $2.3M in recovered capacity — same headcount, 6 months.</div>
+          <p>15 minutes to show you what this looks like for GM's indirect categories?</p>
+          <a class="cta-btn" href="#" onclick="return false">Book 15 minutes →</a>
+          <div class="esig">
+            <div class="esig-name">[Your Name]</div>
+            <div class="esig-sub">Account Executive</div>
+            <div class="esig-co">askLio — Agentic Workforce Platform for Procurement</div>
+            <div style="margin-top:3px;font-size:.63rem;color:var(--muted)">lio.ai · Y Combinator · ProcureTech 100</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="annot-row">
+      <div class="annot"><div class="annot-ttl">Hook</div><p>Opens with his reality: new in role, complaints landing on his desk. Not generic — mirrors his first 90 days specifically.</p></div>
+      <div class="annot purple"><div class="annot-ttl">Reframe</div><p>"That operational layer is fixable" — converts vague frustration into a solvable problem. He knows the pain; we name the fix.</p></div>
+      <div class="annot green"><div class="annot-ttl">Proof + CTA</div><p>One hard number from a comparable account. 15 minutes — not a "demo." Lowest friction CTA possible.</p></div>
+    </div>
+  </div>
+  </section>
+
+  <!-- ════════════════ 03 DEAL ════════════════ -->
+  <section class="sec" id="deal">
+  <div class="wrap">
+    <div class="lbl"><span class="dot"></span> 03 Deal</div>
+    <h2>First Meeting → Closed-Won</h2>
+    <p class="sec-sub">Navigate the org, qualify deep, and run a clean process to €50k signed.</p>
+
+    <!-- Pipeline tabs -->
+    <span class="pipeline-lbl">12-Week Deal Process — Click Any Stage</span>
+    <div class="tabs" id="tabBar">
+      <div class="tab active" onclick="selTab(0)"><div class="tab-num">01</div><div class="tab-name">Discovery</div><div class="tab-wk">Wk 1–2</div></div>
+      <div class="tab" onclick="selTab(1)"><div class="tab-num">02</div><div class="tab-name">Qualification</div><div class="tab-wk">Wk 2–3</div></div>
+      <div class="tab" onclick="selTab(2)"><div class="tab-num">03</div><div class="tab-name">Demo + BizCase</div><div class="tab-wk">Wk 3–5</div></div>
+      <div class="tab" onclick="selTab(3)"><div class="tab-num">04</div><div class="tab-name">Stakeholders</div><div class="tab-wk">Wk 5–8</div></div>
+      <div class="tab" onclick="selTab(4)"><div class="tab-num">05</div><div class="tab-name">Pilot / POV</div><div class="tab-wk">Wk 6–10</div></div>
+      <div class="tab" onclick="selTab(5)"><div class="tab-num">06</div><div class="tab-name">Commercial</div><div class="tab-wk">Wk 10–12</div></div>
+      <div class="tab" onclick="selTab(6)"><div class="tab-num">07</div><div class="tab-name">Legal &amp; Sign</div><div class="tab-wk">Wk 12–14</div></div>
+      <div class="tab" onclick="selTab(7)"><div class="tab-num">08</div><div class="tab-name">🏆 Closed</div><div class="tab-wk">Day 90–100</div></div>
+    </div>
+    <div class="panel-wrap" id="panelWrap"><!-- JS --></div>
+
+    <!-- Political map -->
+    <div class="lbl"><span class="dot"></span> Political Map — GM Stakeholder Ecosystem</div>
+    <h2 style="margin-bottom:6px">Who You Need to Navigate</h2>
+    <p class="sec-sub">Motivations, objections, and your move — for every person in the room.</p>
+
+    <div class="pm-champion">
+      <div class="pm-badge">★ Champion — Start Here</div>
+      <div class="pm-name">Shilpan Amin</div>
+      <div class="pm-role">Global CPO &amp; Supply Chain Officer · General Motors</div>
+      <div class="pm-co">Appointed April 2025 · New in role · Needs a visible win in 6 months</div>
+      <div class="pm-inner">
+        <div class="pm-inner-col g">
+          <h6>Why He Buys</h6>
+          <div class="pm-bullet">Needs a fast win in first 6 months to prove himself in this role</div>
+          <div class="pm-bullet">Personal mandate to modernize procurement — this is his transformation story</div>
+          <div class="pm-bullet">Wants procurement seen as strategic, not overhead</div>
+        </div>
+        <div class="pm-inner-col r">
+          <h6>What to Overcome</h6>
+          <div class="pm-bullet">Fear of failed IT projects damaging his early tenure</div>
+          <div class="pm-bullet">Needs proof of SAP integration before committing</div>
+          <div class="pm-bullet">Will want a pilot before full commitment — plan for it early</div>
+        </div>
       </div>
       <div class="pm-action">→ Weekly check-ins. Make him co-author of the business case. His internal wins = your expansion.</div>
     </div>
 
     <div class="pm-grid">
+      <!-- Paul Jacobson — CFO -->
       <div class="pm-card">
         <div class="pm-name">Paul Jacobson</div>
         <div class="pm-role">EVP &amp; CFO · General Motors</div>
@@ -25,6 +609,7 @@
         <span class="pm-action">→ 1-pager only: payback period, 3-year NPV, cost per transaction delta</span>
       </div>
 
+      <!-- Mary Barra — CEO -->
       <div class="pm-card">
         <div class="pm-name">Mary Barra</div>
         <div class="pm-role">Chair &amp; CEO · General Motors</div>
@@ -43,6 +628,7 @@
         <span class="pm-action">→ Get executive air cover through Shilpan. Make him the hero — she follows.</span>
       </div>
 
+      <!-- Jeff Morrison — SVP Purchasing -->
       <div class="pm-card">
         <div class="pm-name">Jeff Morrison</div>
         <div class="pm-role">SVP Global Purchasing · General Motors</div>
@@ -61,6 +647,7 @@
         <span class="pm-action">→ Make him a co-author of the success story. His team's wins = his wins.</span>
       </div>
 
+      <!-- Dave Richardson — SVP Software -->
       <div class="pm-card">
         <div class="pm-name">Dave Richardson</div>
         <div class="pm-role">SVP Software &amp; Engineering · General Motors</div>
@@ -79,6 +666,7 @@
         <span class="pm-action">→ Bring Solutions Engineer in Week 3. Deliver SOC 2 + SAP doc proactively.</span>
       </div>
 
+      <!-- Grant Dixton — Legal -->
       <div class="pm-card">
         <div class="pm-name">Grant Dixton</div>
         <div class="pm-role">Chief Legal &amp; Public Policy · General Motors</div>
@@ -97,18 +685,19 @@
         <span class="pm-action">→ Initiate DPA and AI governance one-pager in Week 3. Never leave legal to the end.</span>
       </div>
     </div>
-
   </div>
   </section>
 
-  <!-- ════════════════════════ 04 EXPAND ════════════════════════ -->
+  ---
+  Lines 703–953 — SECTION 04 EXPAND + APPENDIX + FOOTER + <script>
+
+  <!-- ════════════════ 04 EXPAND ════════════════ -->
   <section class="sec" id="expand">
   <div class="wrap">
     <div class="lbl"><span class="dot"></span> 04 Expand Account</div>
     <h2>Land &amp; Expand — €50k → €500k</h2>
     <p class="sec-sub">The signature is the starting line. Stay close, sell on their needs — not your roadmap — and let early wins pull expansion.</p>
 
-    <!-- Charts -->
     <div class="expand-charts">
       <div class="chart-box">
         <h4>Phase 1 — €50k to €150k</h4>
@@ -122,61 +711,89 @@
       </div>
     </div>
 
-    <!-- Levers -->
     <div class="levers-row">
       <div>
         <div class="levers-col-title lv1-title">Phase 1 Levers</div>
-        <div class="lever la">...</div>
-        <div class="lever lb">...</div>
-        <div class="lever lc">...</div>
+        <div class="lever la"><div class="lever-ico">🚪</div><div class="lever-c"><div class="lt">Land — Guided Buying</div><div class="ld">One division. Automate request-to-order for indirect spend. Prove
+  40%+ cycle time reduction in 90 days.</div></div><div class="lever-d">€50k</div></div>
+        <div class="lever lb"><div class="lever-ico">⚙️ </div><div class="lever-c"><div class="lt">Operational Automation (Mo. 5)</div><div class="ld">"Cycle time dropped — but every PO is still manually
+  processed." Show the next bottleneck from pilot data.</div></div><div class="lever-d">+€40k</div></div>
+        <div class="lever lc"><div class="lever-ico">🤝</div><div class="lever-c"><div class="lt">AI Negotiation (Mo. 8)</div><div class="ld">"You saved $800k in labor. What if we captured $2M in purchase
+  price on top?" Anchor to documented ROI.</div></div><div class="lever-d">+€60k</div></div>
       </div>
       <div>
         <div class="levers-col-title lv2-title">Phase 2 Levers</div>
-        <div class="lever la">...</div>
-        <div class="lever lb">...</div>
-        <div class="lever ld_">...</div>
+        <div class="lever la"><div class="lever-ico">🧠</div><div class="lever-c"><div class="lt">Strategic Intelligence (Mo. 14)</div><div class="ld">Real-time supplier risk, market benchmarks, negotiation
+  prep. Sells to Shilpan's "why" — seeing around corners.</div></div><div class="lever-d">+€100k</div></div>
+        <div class="lever lb"><div class="lever-ico">🌍</div><div class="lever-c"><div class="lt">NA Full Rollout (Mo. 20)</div><div class="ld">Champion becomes internal evangelist. "Your colleagues in
+  [division] are still doing this manually — and they've asked."</div></div><div class="lever-d">+€120k</div></div>
+        <div class="lever ld_"><div class="lever-ico">🌐</div><div class="lever-c"><div class="lt">Global + Enterprise License (Mo. 30)</div><div class="ld">GM operates in 70+ countries. Once NA is proven,
+  international rollout upgrades to an enterprise license.</div></div><div class="lever-d">+€130k</div></div>
       </div>
     </div>
 
-    <!-- Principles -->
     <div class="lbl"><span class="dot"></span> What Makes Expansion Work</div>
     <div class="principles">
-      <div class="pr">01 — Stay closer than a consultant</div>
-      <div class="pr">02 — Every QBR is a sales meeting</div>
-      <div class="pr">03 — Sell on their needs, not your roadmap</div>
-      <div class="pr">04 — Make Shilpan a hero</div>
-      <div class="pr">05 — Anchor every expansion to ROI</div>
-      <div class="pr">06 — New stakeholders = new budget</div>
+      <div class="pr"><div class="pr-n">01</div><h5>Stay closer than a consultant</h5><p>Weekly check-ins in months 1–3. Monthly after. The moment you go quiet, a competitor fills the space.</p></div>
+      <div class="pr"><div class="pr-n">02</div><h5>Every QBR is a sales meeting</h5><p>Present ROI realized → surface new problems from deployment data → introduce the next module as a natural next
+  step.</p></div>
+      <div class="pr"><div class="pr-n">03</div><h5>Sell on their needs, not your roadmap</h5><p>Only pitch a new module when their pain justifies it. Expansion seeds are planted in discovery — surface them
+  at the right QBR.</p></div>
+      <div class="pr"><div class="pr-n">04</div><h5>Make Shilpan a hero</h5><p>Help him present results to Mary Barra. When he gets promoted, askLio goes with him. His career trajectory is your expansion
+  map.</p></div>
+      <div class="pr"><div class="pr-n">05</div><h5>Anchor every expansion to ROI</h5><p>"Module 1 saved you $X. Module 2 is how we get to $3X." Numbers close expansions. Relationships keep
+  accounts.</p></div>
+      <div class="pr"><div class="pr-n">06</div><h5>New stakeholders = new budget</h5><p>Every new person you meet is a potential expansion buyer. Map the org proactively — not reactively at
+  renewal.</p></div>
     </div>
   </div>
   </section>
 
-  <!-- ════════════════════════ APPENDIX ════════════════════════ -->
+  <!-- ════════════════ APPENDIX ════════════════ -->
   <div class="appendix" id="appendix">
   <div class="wrap">
-    <div class="lbl">Appendix — Sales Frameworks</div>
-    <h2>MEDDIC &amp; TED Reference</h2>
+    <div class="lbl"><span class="dot" style="background:var(--purple)"></span> Appendix — Sales Frameworks</div>
+    <h2 style="margin-bottom:6px">MEDDIC &amp; TED Reference</h2>
+    <p style="margin-bottom:28px;max-width:500px">Qualification and discovery frameworks to use in the deal process when you want to go deeper.</p>
 
     <div class="fw-grid">
       <div class="fw">
         <div class="fw-ttl btl">MEDDIC — Qualification Framework</div>
-        <div class="mrow"><div class="mltr">M</div> Metrics → GM: avg cycle time, % maverick spend, compliance failure rate</div>
-        <div class="mrow"><div class="mltr">E</div> Economic Buyer → Shilpan + Paul Jacobson (CFO)</div>
-        <div class="mrow"><div class="mltr">D</div> Decision Criteria → Savings (CFO), SAP integration (IT), speed to value (Shilpan)</div>
-        <div class="mrow"><div class="mltr">D</div> Decision Process → Tech committee? IT security? Legal DPA? Find out in Week 2.</div>
-        <div class="mrow"><div class="mltr">I</div> Identify Pain → Cost efficiency mandate + new CPO = board priority</div>
-        <div class="mrow"><div class="mltr">C</div> Champion → Shilpan. New role = needs a win = perfectly aligned incentive.</div>
+        <div class="mrow"><div class="mltr">M</div><div><div class="mword">Metrics</div><div class="mdef">Quantify pain before anything else.</div><div class="mgm">→ GM: avg cycle time per request, %
+  maverick spend, compliance failure rate</div></div></div>
+        <div class="mrow"><div class="mltr">E</div><div><div class="mword">Economic Buyer</div><div class="mdef">Who signs? Reach them before Stage 4.</div><div class="mgm">→ Shilpan + Paul Jacobson (CFO).
+  Both co-sign above $50k.</div></div></div>
+        <div class="mrow"><div class="mltr">D</div><div><div class="mword">Decision Criteria</div><div class="mdef">What matters most to each stakeholder?</div><div class="mgm">→ Savings (CFO), SAP
+  integration (IT), speed to value (Shilpan)</div></div></div>
+        <div class="mrow"><div class="mltr">D</div><div><div class="mword">Decision Process</div><div class="mdef">Map every approval gate before you hit it.</div><div class="mgm">→ Tech committee? IT
+  security? Legal DPA? Find out in Week 2.</div></div></div>
+        <div class="mrow"><div class="mltr">I</div><div><div class="mword">Identify Pain</div><div class="mdef">Board priority or nice-to-have?</div><div class="mgm">→ Cost efficiency mandate + new CPO =
+  board priority + urgency confirmed.</div></div></div>
+        <div class="mrow"><div class="mltr">C</div><div><div class="mword">Champion</div><div class="mdef">Who fights for this when you're not in the room?</div><div class="mgm">→ Shilpan. New role = needs a
+   win = perfectly aligned incentive.</div></div></div>
       </div>
 
-      <div class="fw">
+      <div class="fw" style="border-color:rgba(124,92,252,.2)">
         <div class="fw-ttl ptl">TED — Uncovering 2nd &amp; 3rd Level Pain</div>
-        Level 1 — Surface · Tell me about…
-          "Tell me about how your team handles an indirect purchase request today."
-        Level 2 — Business Impact · Explain to me…
-          "Explain what that means for buyers managing thousands of requests a year."
-        Level 3 — Root Consequence · Describe…
-          "Describe what it means for procurement's perception when the CFO asks for savings..."
-        ★ Once you know Level 3 pain, you're selling credibility — not software.
+        <p style="font-size:.72rem;margin-bottom:13px">Surface pain doesn't close deals. The third level — the consequence they haven't said out loud — does.</p>
+        <div class="ted-lvl t1">
+          <div class="tlbl">Level 1 — Surface · Tell me about…</div>
+          <div class="tq">"Tell me about how your team handles an indirect purchase request today."</div>
+          <div class="ta">Answer: "It's slow — manual approvals, days for simple things, lots of email chains."</div>
+        </div>
+        <div class="ted-arr">↓ go deeper</div>
+        <div class="ted-lvl t2">
+          <div class="tlbl">Level 2 — Business Impact · Explain to me…</div>
+          <div class="tq">"Explain what that means for buyers managing thousands of requests a year."</div>
+          <div class="ta">Answer: "They spend 60–70% of their time on admin instead of actual negotiation or strategy."</div>
+        </div>
+        <div class="ted-arr">↓ find the root</div>
+        <div class="ted-lvl t3">
+          <div class="tlbl">Level 3 — Root Consequence · Describe…</div>
+          <div class="tq">"Describe what it means for procurement's perception when the CFO asks for savings and the team is buried in process."</div>
+          <div class="ta">Answer: <em>"We're seen as overhead. That's the conversation I'm trying to change."</em></div>
+        </div>
+        <div class="ted-note">★ Once you know Level 3 pain, you're selling credibility — not software. Price objections disappear.</div>
       </div>
     </div>
   </div>
@@ -186,7 +803,7 @@
     <div class="wrap">
       <div class="fl">lio</div>
       <p>Agentic Workforce Platform for Procurement · lio.ai</p>
-      <p>AE Interview Case Study · Olivia</p>
+      <p style="margin-top:2px">AE Interview Case Study · Olivia</p>
     </div>
   </footer>
 
@@ -195,20 +812,44 @@
   var stages = [
     { num:'01', name:'Discovery', weeks:'Week 1–2',
       goal:'Understand the real pain — not what they say first, but what keeps them up at night.',
-      actions:['Open: "Walk me through what happens when an employee needs to buy something..."',
-               'Ask: "Where does the process break down most?" — stay silent and let them talk',
-               'Ask: "If nothing changes in 12 months, what does that mean for your team?"',
-               'Close by summarizing their pain in their own words — show you listened'],
-      exits:['Top 3 pain points identified in Shilpan\'s own language',
-             'Initial stakeholder map drafted',
-             'Next meeting booked before hanging up'] },
-    { num:'02', name:'Qualification', weeks:'Week 2–3', ... },
-    { num:'03', name:'Demo + Business Case', weeks:'Week 3–5', ... },
-    { num:'04', name:'Stakeholder Alignment', weeks:'Week 5–8', ... },
-    { num:'05', name:'Pilot / POV', weeks:'Week 6–10', ... },
-    { num:'06', name:'Commercial', weeks:'Week 10–12', ... },
-    { num:'07', name:'Legal & Sign', weeks:'Week 12–14', ... },
-    { num:'08', name:'Closed-Won', weeks:'Day 90–100', ... }
+      actions:['Open: "Walk me through what happens when an employee needs to buy something in your indirect categories today"','Ask: "Where does the process break down most?" — stay silent and let them
+  talk','Ask: "If nothing changes in 12 months, what does that mean for your team?"','Close by summarizing their pain in their own words — show you listened'],
+      exits:['Top 3 pain points identified in Shilpan\'s own language','Initial stakeholder map drafted','Next meeting booked before hanging up'] },
+    { num:'02', name:'Qualification', weeks:'Week 2–3',
+      goal:'Run MEDDIC. Do not advance without Metrics and Economic Buyer confirmed.',
+      actions:['Have Shilpan define success in numbers — it becomes his business case, not yours','Ask: "Who else in GM needs to be comfortable with this?" — map every gate','Confirm budget exists or path to
+   create it','Request introduction to Paul Jacobson (CFO) through Shilpan'],
+      exits:['5 of 6 MEDDIC dimensions confirmed','Budget confirmed or clear path identified','Champion willing to facilitate CFO introduction'] },
+    { num:'03', name:'Demo + Business Case', weeks:'Week 3–5',
+      goal:'Show GM\'s world, not our product. Every screen should feel built for their exact workflow.',
+      actions:['Demo only the 3 pain points from discovery — nothing else','Build ROI in the meeting using their numbers: "You said X requests/year × Y hours = $Z buried in process"','Co-author the business
+  case with Shilpan — his numbers, his credibility with the CFO','Validate before sending to CFO: "Does this reflect what you\'re experiencing?"'],
+      exits:['Business case coauthored: 3-year ROI, Year 1 payback','Shilpan has endorsed the numbers','CFO meeting scheduled'] },
+    { num:'04', name:'Stakeholder Alignment', weeks:'Week 5–8',
+      goal:'Remove every blocker before it becomes a veto. Run parallel tracks, not sequential.',
+      actions:['CFO: 15-min ROI-only presentation, no feature slides, hard payback period','IT (Richardson): involve SE now, deliver SAP compatibility + SOC 2 cert proactively','Legal (Dixton): start DPA now
+   — legal kills late-stage deals if ignored','End users: 30-min walkthrough, "augment not replace" messaging throughout'],
+      exits:['CFO verbal buy-in or specific objections captured','IT security review initiated','DPA draft in circulation'] },
+    { num:'05', name:'Pilot / POV', weeks:'Week 6–10',
+      goal:'Let the data close the deal. Make the CFO\'s yes decision obvious.',
+      actions:['Scope: 90-day pilot on ONE workflow — indirect request-to-order for one category','Agree on KPIs before go-live: cycle time, compliance rate, manual touchpoints eliminated','Week 4: mid-pilot
+   update — "here\'s what the data shows so far"','Build internal case study in real time — Shilpan presents results internally'],
+      exits:['Hard metrics documented from pilot','Business case updated with actual results, not projections','Commercial conversation anchored to proof'] },
+    { num:'06', name:'Commercial', weeks:'Week 10–12',
+      goal:'Protect value. Accelerate. Close before end of quarter.',
+      actions:['Present 3 packages anchored above €50k — Good / Better / Best','Q-end incentive: priority onboarding + annual pre-pay discount','Objection "evaluating others": offer reference call with
+  comparable automotive customer','Objection "budget unclear": "The pilot ROI already justifies the spend — here\'s the math"'],
+      exits:['Price agreed at €50k minimum','Implementation start date committed','Legal redline initiated in parallel'] },
+    { num:'07', name:'Legal & Sign', weeks:'Week 12–14',
+      goal:'Close every open legal item. Run MSA, SOW, DPA in parallel — never sequentially.',
+      actions:['MSA + SOW + DPA processed simultaneously — not one after another','askLio legal on standby for fast turnaround — enterprise legal is the #1 delay','Champion drives internally: "What does your
+   team need to move this forward this week?"','Accept standard redlines unless material — don\'t stall on small clauses'],
+      exits:['MSA, SOW, and DPA all executed','Invoice issued','Kickoff scheduled within 2 weeks'] },
+    { num:'08', name:'Closed-Won', weeks:'Day 90–100',
+      goal:'€50k ARR booked. Day 1 of customer = Day 1 of the next deal. Expansion clock starts now.',
+      actions:['Full context handoff to CSM — every pain point and stakeholder detail transfers','Kickoff: success metrics confirmed, go-live committed within 30 days','Set Month 3 QBR date before going live
+   — get it in the calendar now','CRM: tag three expansion opportunities from discovery — review at first QBR'],
+      exits:['€50k ARR booked','Go-live date set within 30 days','Month 3 QBR on both calendars','Expansion roadmap in CRM'] }
   ];
 
   function selTab(i) {
@@ -262,8 +903,7 @@
       var scaleOpts = function(max) {
         return {
           x: { stacked: true, grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#4A5578', font: { size: 10 } } },
-          y: { stacked: true, max: max, grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#4A5578', font: { size: 10 },
-               callback: function(v) { return '€' + v + 'k'; } } }
+          y: { stacked: true, max: max, grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#4A5578', font: { size: 10 }, callback: function(v) { return '€' + v + 'k'; } } }
         };
       };
 
@@ -280,12 +920,13 @@
           data: {
             labels: ['M1','M2','M3','M4','M5','M6','M7','M8','M9','M10','M11','M12'],
             datasets: [
-              { label: 'Guided Buying',          data: [50,50,50,50,50,50,50,50,50,50,50,50],    backgroundColor: 'rgba(74,143,255,0.75)' },
-              { label: 'Operational Automation', data: [0,0,0,0,40,40,40,40,40,40,40,40],        backgroundColor: 'rgba(124,92,252,0.75)' },
-              { label: 'AI Negotiation',         data: [0,0,0,0,0,0,0,60,60,60,60,60],           backgroundColor: 'rgba(16,212,142,0.75)' }
+              { label: 'Guided Buying',          data: [50,50,50,50,50,50,50,50,50,50,50,50],  backgroundColor: 'rgba(74,143,255,0.75)' },
+              { label: 'Operational Automation', data: [0,0,0,0,40,40,40,40,40,40,40,40],      backgroundColor: 'rgba(124,92,252,0.75)' },
+              { label: 'AI Negotiation',         data: [0,0,0,0,0,0,0,60,60,60,60,60],         backgroundColor: 'rgba(16,212,142,0.75)' }
             ]
           },
-          options: { responsive: true, maintainAspectRatio: false,
+          options: {
+            responsive: true, maintainAspectRatio: false,
             interaction: { mode: 'index', intersect: false },
             plugins: { legend: legendOpts, tooltip: tooltipOpts },
             scales: scaleOpts(180)
@@ -293,7 +934,7 @@
         });
       }
 
-      // Chart 2 — Phase 2: €150k → €500k (distinct color palette)
+      // Chart 2 — Phase 2: €150k → €500k
       var c2 = document.getElementById('chart2');
       if (c2) {
         new Chart(c2, {
@@ -301,13 +942,14 @@
           data: {
             labels: ['M12','M15','M18','M21','M24','M27','M30','M33','M36'],
             datasets: [
-              { label: 'Phase 1 ARR (existing)',  data: [150,150,150,150,150,150,150,150,150], backgroundColor: 'rgba(100,120,180,0.3)' },
+              { label: 'Phase 1 ARR (existing)', data: [150,150,150,150,150,150,150,150,150], backgroundColor: 'rgba(100,120,180,0.3)' },
               { label: 'Strategic Intelligence',  data: [0,100,100,100,100,100,100,100,100],  backgroundColor: 'rgba(255,140,66,0.8)' },
               { label: 'NA Full Rollout',          data: [0,0,0,120,120,120,120,120,120],      backgroundColor: 'rgba(0,210,200,0.8)' },
               { label: 'Global + Enterprise',      data: [0,0,0,0,0,0,130,130,130],            backgroundColor: 'rgba(245,200,66,0.85)' }
             ]
           },
-          options: { responsive: true, maintainAspectRatio: false,
+          options: {
+            responsive: true, maintainAspectRatio: false,
             interaction: { mode: 'index', intersect: false },
             plugins: { legend: legendOpts, tooltip: tooltipOpts },
             scales: scaleOpts(580)
@@ -320,4 +962,3 @@
   </script>
   </body>
   </html>
-
