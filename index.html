@@ -801,11 +801,10 @@
         <div></div>
         <div class="gtl-months">
           <span style="left:0%">M0</span>
-          <span style="left:16.67%">M6</span>
-          <span style="left:33.33%">M12</span>
-          <span style="left:50%">M18</span>
-          <span style="left:66.67%">M24</span>
-          <span style="left:83.33%">M30</span>
+          <span style="left:20%">M6</span>
+          <span style="left:40%">M12</span>
+          <span style="left:60%">M18</span>
+          <span style="left:80%">M24</span>
           <span style="left:100%">M36</span>
         </div>
       </div>
@@ -814,10 +813,10 @@
         <div></div>
         <div class="gtl-ms-track">
           <div class="ms-dot" style="left:0%"><span>€50k</span></div>
-          <div class="ms-dot" style="left:11.1%"><span>~€90k</span></div>
-          <div class="ms-dot" style="left:22.2%"><span>~€150k</span></div>
-          <div class="ms-dot" style="left:50%"><span>~€250k</span></div>
-          <div class="ms-dot" style="left:66.7%"><span>~€350k</span></div>
+          <div class="ms-dot" style="left:20%"><span>~€90k</span></div>
+          <div class="ms-dot" style="left:40%"><span>~€150k</span></div>
+          <div class="ms-dot" style="left:60%"><span>~€250k</span></div>
+          <div class="ms-dot" style="left:80%"><span>~€350k</span></div>
           <div class="ms-dot" style="left:100%"><span>€500k</span></div>
         </div>
       </div>
@@ -828,19 +827,19 @@
       </div>
       <div class="gantt-row">
         <div><div class="grl-ph" style="color:var(--green)">Phase 2 · 1st Upsell</div><div class="grl-n">Operations Scaling</div></div>
-        <div class="gantt-track"><div class="gbar gb-green" style="left:22.2%;width:77.8%">No-Touch PO · RFQ Automation · Virtual SSC</div></div>
+        <div class="gantt-track"><div class="gbar gb-green" style="left:20%;width:80%">No-Touch PO · RFQ Automation · Virtual SSC</div></div>
       </div>
       <div class="gantt-row">
         <div><div class="grl-ph" style="color:var(--purple)">Phase 3 · 2nd Upsell </div><div class="grl-n">AI Negotiators</div></div>
-        <div class="gantt-track"><div class="gbar gb-purple" style="left:11.1%;width:88.9%">Make every PO profitable to negotiate</div></div>
+        <div class="gantt-track"><div class="gbar gb-purple" style="left:40%;width:60%">Make every PO profitable to negotiate</div></div>
       </div>
       <div class="gantt-row">
         <div><div class="grl-ph" style="color:var(--gold)">Phase 4 · 3rd Upsell</div><div class="grl-n">Upskilling</div></div>
-        <div class="gantt-track"><div class="gbar gb-gold" style="left:50%;width:50%">AI Natives · Procurement Intelligence Agent</div></div>
+        <div class="gantt-track"><div class="gbar gb-gold" style="left:60%;width:40%">AI Natives · Procurement Intelligence Agent</div></div>
       </div>
       <div class="gantt-row">
         <div><div class="grl-ph" style="color:var(--orange)">Expansion</div><div class="grl-n">Geographic Rollout</div></div>
-        <div class="gantt-track"><div class="gbar gb-orange" style="left:66.7%;width:33.3%">NA → Europe → Global · Enterprise License</div></div>
+        <div class="gantt-track"><div class="gbar gb-orange" style="left:80%;width:20%">NA → Europe → Global · Enterprise License</div></div>
       </div>
     </div>
 
@@ -863,7 +862,7 @@
       </div>
 <div class="upsell-card uc-p2">
         <div class="uc-header">
-          <div class="uc-phase" style="color:var(--green)">2nd Upsell · Phase 2</div>
+          <div class="uc-phase" style="color:var(--green)">1st Upsell · Phase 2</div>
           <div class="uc-arr" style="background:rgba(16,212,142,.1);color:var(--green)">+€60k</div>
         </div>
         <div class="uc-title">Scale Operations — without additional headcount</div>
@@ -877,7 +876,7 @@
       </div>
       <div class="upsell-card uc-p3">
         <div class="uc-header">
-          <div class="uc-phase" style="color:var(--purplel)">1st Upsell · Phase 3</div>
+          <div class="uc-phase" style="color:var(--purplel)">2nd Upsell · Phase 3</div>
           <div class="uc-arr" style="background:rgba(124,92,252,.1);color:var(--purplel)">+€40k</div>
         </div>
         <div class="uc-title">AI Negotiators — Make every PO profitable to negotiate</div>
@@ -926,44 +925,7 @@
   </footer>
 
   <script>
-  var stages = [
-    { num:'01', name:'Discovery Call', weeks:'Call 1',
-      goal:'Understand the real pains — not what they say first, but what keeps them up at night.',
-      actions:['Open: "Walk me through what happens when an employee needs to buy something today"','Ask: "Where does the process take up most time?" — stay silent and let them talk','Ask: "If nothing
-  changes in 12 months, what does that mean for your team?"','Close by summarizing their pain in their exact words — show you listened'],
-      exits:['Top 3 pain points identified and documented','Key stakeholders mapped (who else is involved?)','Deep-Dive Call booked before hanging up'] },
-    { num:'02', name:'Deep-Dive Call', weeks:'Call 2',
-      goal:'Define the ideal lio agent solution for their specific environment and pain points.',
-      actions:['Go deeper on each pain point — use TED framework to reach Level 3','Understand their current process end-to-end: which categories, which systems, which teams','Start mapping which lio modules
-   map to which pain points','Confirm SAP/Oracle setup and which integrations are relevant'],
-      exits:['Solution hypothesis defined: which lio agents address which pains','Stakeholder map expanded — who needs to be involved in technical review','Solution Architecture Call scheduled with their IT
-  team'] },
-    { num:'03', name:'Solution Architecture', weeks:'Call 3',
-      goal:'Technical validation — confirm integration is possible before going further.',
-      actions:['Involve lio Solutions Architect + their IT/procurement systems team','Walk through integration requirements: SAP/Oracle, SSO, data residency, security','Deliver SOC 2 certification and
-  integration documentation proactively','Address any IT security concerns before they become blockers'],
-      exits:['Technical feasibility confirmed by both sides','No open integration blockers','IT team aligned — will not become a veto later'] },
-    { num:'04', name:'Business Case Call', weeks:'Call 4',
-      goal:'Show the ROI in their numbers. Value-based pricing anchored to their specific situation.',
-      actions:['Build the business case using their data: "You said X requests/year × Y hours = €Z buried in process"','Present value-based pricing — price to the ROI, not to a list price','Involve CFO or
-  economic buyer — this is when Shilpan brings Paul Jacobson','Co-author the business case with Shilpan so his numbers carry his credibility with the CFO'],
-      exits:['Business case endorsed by champion','CFO / economic buyer has seen the ROI model','Pricing discussed — no surprise on commercial side','On-site Workshop scheduled'] },
-    { num:'05', name:'On-site Workshop', weeks:'On-site',
-      goal:'Validate lio functionality with real customer data. Remove all doubt before contracting.',
-      actions:['Run the workshop on-site with their actual procurement data and real workflows','Show exactly how lio handles their specific request types, categories, and approval flows','Let their team
-  interact with the product — adoption anxiety drops when they touch it','Capture their feedback and build it into the final solution design'],
-      exits:['Functional validation confirmed with real data','Internal champions can articulate the value to their stakeholders','Contracting phase initiated — champion pushes internally for next steps'] },
-    { num:'06', name:'Contracting', weeks:'Negotiation',
-      goal:'Close every open commercial and legal item. Run MSA, SOW, DPA in parallel.',
-      actions:['MSA + SOW + DPA processed simultaneously — never sequentially','lio legal on standby for fast turnaround — enterprise legal is the #1 deal killer','Champion drives internally: "What does your
-   team need to move this forward this week?"','Accept standard redlines unless material — don\'t stall on minor clauses'],
-      exits:['All legal documents in final review','Commercial terms agreed','No open blockers — only signatures remaining'] },
-    { num:'07', name:'Signing', weeks:'Closed-Won',
-      goal:'€50k ARR booked. Day 1 of customer = Day 1 of the next deal. Expansion clock starts now.',
-      actions:['Full context handoff to CSM — every pain point and stakeholder detail transfers','Kickoff: success metrics confirmed, go-live committed within 30 days','Set Month 3 QBR date before going live
-   — get it in the calendar now','CRM: tag three expansion opportunities from discovery — review at first QBR'],
-      exits:['€50k ARR booked','Go-live date set within 30 days','Month 3 QBR on both calendars','Expansion roadmap in CRM'] }
-  ];
+  var stages = [ { num:'01', name:'Discovery Call', weeks:'Call 1', goal:'Understand the real pains — not what they say first, but what keeps them up at night.', actions:['Open: "Walk me through what happens when an employee needs to buy something today"','Ask: "Where does the process take up most time?" — stay silent and let them talk','Ask: "If nothing changes in 12 months, what does that mean for your team?"','Close by summarizing their pain in their exact words — show you listened'], exits:['Top 3 pain points identified and documented','Key stakeholders mapped (who else is involved?)','Deep-Dive Call booked before hanging up'] }, { num:'02', name:'Deep-Dive Call', weeks:'Call 2', goal:'Define the ideal lio agent solution for their specific environment and pain points.', actions:['Go deeper on each pain point — use TED framework to reach Level 3','Understand their current process end-to-end: which categories, which systems, which teams','Start mapping which lio modules map to which pain points','Confirm SAP/Oracle setup and which integrations are relevant'], exits:['Solution hypothesis defined: which lio agents address which pains','Stakeholder map expanded — who needs to be involved in technical review','Solution Architecture Call scheduled with their IT team'] }, { num:'03', name:'Solution Architecture', weeks:'Call 3', goal:'Technical validation — confirm integration is possible before going further.', actions:['Involve lio Solutions Architect + their IT/procurement systems team','Walk through integration requirements: SAP/Oracle, SSO, data residency, security','Deliver SOC 2 certification and integration documentation proactively','Address any IT security concerns before they become blockers'], exits:['Technical feasibility confirmed by both sides','No open integration blockers','IT team aligned — will not become a veto later'] }, { num:'04', name:'Business Case Call', weeks:'Call 4', goal:'Show the ROI in their numbers. Value-based pricing anchored to their specific situation.', actions:['Build the business case using their data: "You said X requests/year × Y hours = €Z buried in process"','Present value-based pricing — price to the ROI, not to a list price','Involve CFO or economic buyer — this is when Shilpan brings Paul Jacobson','Co-author the business case with Shilpan so his numbers carry his credibility with the CFO'], exits:['Business case endorsed by champion','CFO / economic buyer has seen the ROI model','Pricing discussed — no surprise on commercial side','On-site Workshop scheduled'] }, { num:'05', name:'On-site Workshop', weeks:'On-site', goal:'Validate lio functionality with real customer data. Remove all doubt before contracting.', actions:['Run the workshop on-site with their actual procurement data and real workflows','Show exactly how lio handles their specific request types, categories, and approval flows','Let their team interact with the product — adoption anxiety drops when they touch it','Capture their feedback and build it into the final solution design'], exits:['Functional validation confirmed with real data','Internal champions can articulate the value to their stakeholders','Contracting phase initiated — champion pushes internally for next steps'] }, { num:'06', name:'Contracting', weeks:'Negotiation', goal:'Close every open commercial and legal item. Run MSA, SOW, DPA in parallel.', actions:['MSA + SOW + DPA processed simultaneously — never sequentially','lio legal on standby for fast turnaround — enterprise legal is the #1 deal killer','Champion drives internally: "What does your team need to move this forward this week?"','Accept standard redlines unless material — don\'t stall on minor clauses'], exits:['All legal documents in final review','Commercial terms agreed','No open blockers — only signatures remaining'] }, { num:'07', name:'Signing', weeks:'Closed-Won', goal:'€50k ARR booked. Day 1 of customer = Day 1 of the next deal. Expansion clock starts now.', actions:['Full context handoff to CSM — every pain point and stakeholder detail transfers','Kickoff: success metrics confirmed, go-live committed within 30 days','Set Month 3 QBR date before going live — get it in the calendar now','CRM: tag three expansion opportunities from discovery — review at first QBR'], exits:['€50k ARR booked','Go-live date set within 30 days','Month 3 QBR on both calendars','Expansion roadmap in CRM'] } ];
 
   function selTab(i) {
     var tabs = document.getElementsByClassName('tab');
