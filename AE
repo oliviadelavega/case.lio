@@ -3,7 +3,7 @@
   <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-  <title>Lio - AE Interview Olivia</title>
+  <title>Lio - AE Case Interview Olivia</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
@@ -343,17 +343,17 @@
           <li>CPO or VP Procurement</li>
           <li>Owns procurement tech budget</li>
           <li>Champions digital transformation internally</li>
-          <li>Under pressure from CFO for savings</li>
-          <li>Under pressure from CEO for strategic value</li>
+          <li>Under cost-pressure from CFO</li>
+          <li>Under strategic-pressures from CEO</li>
         </ul>
       </div>
       <div class="persona-card pc-org">
         <span class="pc-icon">🏢</span>
         <div class="pc-title">Org Profile</div>
         <ul class="pc-list">
-          <li>Revenue &gt;€1B, global ops</li>
-          <li>100–600 FTEs in procurement</li>
-          <li>20–100 FTEs in indirect procurement</li>
+          <li>Mid-sized to large enterprise</li>
+          <li>Revenue &gt;€1B</li>
+          <li>30+ FTEs in procurement</li>
           <li>Fragmented supplier network</li>
           <li>Legacy ERP (SAP Ariba) + Excel-heavy</li>
         </ul>
@@ -363,10 +363,10 @@
         <div class="pc-title">Pain Points</div>
         <ul class="pc-list">
           <li>Manual approvals slow everything down</li>
-          <li>Employees complain about buying process</li>
+          <li>Employees involved in manual buying processes</li>
           <li>Non-compliant / maverick spend rising</li>
-          <li>No negotiation leverage on tail spend</li>
-          <li>Siloed data, no real-time savings visibility</li>
+          <li>Little negotiation leverage on tail spend</li>
+          <li>Slow communication cycles, no real-time savings visibility</li>
         </ul>
       </div>
       <div class="persona-card pc-mot">
@@ -384,9 +384,8 @@
         <span class="pc-icon">📍</span>
         <div class="pc-title">Demographics</div>
         <ul class="pc-list">
-          <li>Europe-based (primary market)</li>
-          <li>15+ years in procurement / supply chain</li>
-          <li>Engineer or finance background</li>
+          <li>10+ years in procurement / supply chain</li>
+          <li>wants to adopt AI Tooling</li>
           <li>Skeptical of vendor overpromise</li>
           <li>Values DAX/Fortune 500 peer proof</li>
         </ul>
@@ -400,8 +399,8 @@
       <p class="sec-sub">For this case study, the ICP contact is <strong style="color:var(--text)">Shilpan Amin, Global CPO at General Motors</strong> — a Fortune 6 automotive OEM that checks every box.</p>
     </div>
 
-    <div class="icp-target-layout">
-      <div class="icp-general-summary">
+    <div class="icp-target-case-layout">
+      <div class="icp-automotive">
         <h4>ICP Criteria — Automotive / US</h4>
         <div class="ig-row"><span class="ig-k">Industry</span><span class="ig-v">Automotive OEM / Large Manufacturing</span></div>
         <div class="ig-row"><span class="ig-k">Geography</span><span class="ig-v">United States (HQ), global operations</span></div>
@@ -410,7 +409,7 @@
         <div class="ig-row"><span class="ig-k">Proc. Team</span><span class="ig-v">100–600 FTEs in procurement</span></div>
         <div class="ig-row"><span class="ig-k">Indirect Proc.</span><span class="ig-v">20–100 FTEs managing indirect spend (IT, facilities, services, MRO)</span></div>
         <div class="ig-row"><span class="ig-k">Pain</span><span class="ig-v">Manual workflows, compliance gaps, cost-cutting mandate, employee frustration</span></div>
-        <div class="ig-row"><span class="ig-k">Trigger</span><span class="ig-v">New CPO in role, cost reduction program, headcount freeze</span></div>
+        <div class="ig-row"><span class="ig-k">Trigger</span><span class="ig-v">Cost reduction program, headcount freeze</span></div>
       </div>
 
       <div class="arr-col">
@@ -432,8 +431,8 @@
         <div class="signal">Board mandate to reduce operational costs — procurement must contribute measurably to efficiency targets</div>
         <div class="signal">Internal complaints about slow, manual indirect buying processes — employees frustrated, buyers overwhelmed</div>
         <div class="signal">Compliance gaps in indirect categories (IT, facilities, services) — audit risk, maverick spend rising</div>
-        <div class="signal">Same procurement volume expected with a frozen headcount — "do more with less" pressure is real</div>
-        <div class="signal">New CPO (Shilpan Amin, April 2025) — first 6 months define mandate, maximum receptivity to change</div>
+        <div class="signal">Same procurement volume expected with a frozen headcount/scarce talent — "do more with less" pressure is real</div>
+        <div class="signal">Relatively new CPO (Shilpan Amin, April 2025) — first 2 years critical, motivated to drive positive change</div>
       </div>
     </div>
 
@@ -463,16 +462,16 @@
           <h5>His "Why"</h5>
           <div class="why-item wy-b"><div class="wlabel">Business</div><div class="wtext">GM needs to run leaner. Procurement is one of the last large manual functions — the board knows it and Shilpan has
   the mandate to fix it.</div></div>
-          <div class="why-item wy-p"><div class="wlabel">Professional</div><div class="wtext">3 months into this role after running GM International. Needs a fast, visible win to establish himself with Mary
-  Barra and Paul Jacobson.</div></div>
-          <div class="why-item wy-n"><div class="wlabel">Personal</div><div class="wtext">Engineer by training. Loves rigorous systems. Wants to be the CPO who modernized GM's procurement for the next
+          <div class="why-item wy-p"><div class="wlabel">Professional</div><div class="wtext">Needs visible wins to establish himself with the rest of the C-Levels
+  </div></div>
+          <div class="why-item wy-n"><div class="wlabel">Personal</div><div class="wtext">Engineer by training. Wants to be the CPO who modernized GM's procurement for the next
   era.</div></div>
         </div>
         <div class="ch-sec">
           <h5>Background</h5>
           <div class="irow"><span class="ik">Career</span><span class="iv">GM since 1996 · engineer → supply chain → GM International SVP → CPO 2025</span></div>
           <div class="irow"><span class="ik">Education</span><span class="iv">MSU Engineering · RPI M.S. · USC MBA · Stanford Leadership</span></div>
-          <div class="irow"><span class="ik">Style</span><span class="iv">Data-driven, debates rigorously, hates groupthink — bring substance, not slides</span></div>
+          <div class="irow"><span class="ik">Style</span><span class="iv">Data-driven, debates rigorously, hates groupthink</span></div>
           <div class="quote-box">"If you create a strong culture where everyone brings their best self, the results will come." — Shilpan Amin</div>
         </div>
       </div>
@@ -483,7 +482,7 @@
       <div class="meth-icon">🔍</div>
       <div class="meth-text">
         <h5>How to Scale This Target List</h5>
-        <p>From this persona, prioritize outbound to CPOs in DAX/MDAX or Fortune 500 companies with visible procurement challenges — flagged via annual reports mentioning cost optimization, digital
+        <p>Prioritize outbound to CPOs in DAX/MDAX or Fortune 500 companies with visible procurement challenges - flagged via annual reports mentioning cost optimization, digital
   transformation initiatives, or new executive hires. Track in CRM with notes on recent triggers.</p>
         <div class="meth-tags" style="margin-top:8px">
           <span class="tag tb">LinkedIn Sales Navigator</span>
@@ -513,15 +512,14 @@
       </div>
       <div class="ecompose">
         <div class="ef"><span class="ek">To</span><span class="ev"><span class="hl">Shilpan Amin</span> · Global CPO &amp; Supply Chain Officer, General Motors</span></div>
-        <div class="ef"><span class="ek">Subject</span><span class="ev esubj">GM's indirect procurement — what automation can actually move</span></div>
+        <div class="ef"><span class="ek">Subject</span><span class="ev esubj">GM's indirect procurement - establish your AI Agent Workforce</span></div>
         <div class="ebody">
           <p><span class="hook">Shilpan,</span></p>
-          <p>Three months into the role, and indirect procurement is probably where most of the friction lives — employees frustrated with slow processes, buyers drowning in manual approvals, compliance gaps
-   showing up in audits.</p>
-          <p>That operational layer is fixable. We run AI agents that handle the full request-to-order cycle autonomously: routing, compliance checks, supplier coordination, approvals. Buyers stop
-  firefighting and start buying strategically.</p>
-          <div class="stat-box">↑ Comparable automotive OEM: 60% faster cycle time + $2.3M in recovered capacity — same headcount, 6 months.</div>
-          <p>15 minutes to show you what this looks like for GM's indirect categories?</p>
+          <p>GM faces intense pressure: supply-chain resilience, rising indirect spend costs, and the need for faster, compliant processes to support EV ramp-up and cost control.</p>
+          <p>The operational drag in indirect procurement—manual approvals, slow RFQs, audit compliance gaps, frustrated employees, overloaded buyers, is diminishing the capacity your team needs for strategic work.</p>
+          <div class="stat-box">↑ At Lio we build the AI procurement workforce that is already embedded with 100+ Fortune 500 and DAX companies, running the full request-to-order cycle autonomously. 
+          We’re also recognized on the ProcureTech 100 list (alongside Microsoft & Palantir) for advanced AI procurement.</div>
+          <p>It takes 20 minutes to show you what this looks like for GM's indirect categories</p>
           <a class="cta-btn" href="#" onclick="return false">Book 15 minutes →</a>
           <div class="esig">
             <div class="esig-name">[Your Name]</div>
