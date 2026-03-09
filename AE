@@ -515,7 +515,7 @@
         <div class="ef"><span class="ek">Subject</span><span class="ev esubj">GM's indirect procurement - establish your AI Agent Workforce</span></div>
         <div class="ebody">
           <p><span class="hook">Shilpan,</span></p>
-          <p>GM faces intense pressure: supply-chain resilience, rising indirect spend costs, and the need for faster, compliant processes to support EV ramp-up and cost control.</p>
+          <p>You're facing intense pressures in your position: supply-chain resilience, rising indirect spend costs, and the need for faster, compliant processes to support EV ramp-up and cost control.</p>
           <p>The operational drag in indirect procurement—manual approvals, slow RFQs, audit compliance gaps, frustrated employees, overloaded buyers, is diminishing the capacity your team needs for strategic work.</p>
           <div class="stat-box">↑ At Lio we build the AI procurement workforce that is already embedded with 100+ Fortune 500 and DAX companies, running the full request-to-order cycle autonomously. 
           We’re also recognized on the ProcureTech 100 list (alongside Microsoft & Palantir) for advanced AI procurement.</div>
@@ -569,11 +569,11 @@
       <div class="pm-badge">★ Champion — Start Here</div>
       <div class="pm-name">Shilpan Amin</div>
       <div class="pm-role">Global CPO &amp; Supply Chain Officer · General Motors</div>
-      <div class="pm-co">Appointed April 2025 · New in role · Needs a visible win in 6 months</div>
+      <div class="pm-co">Appointed April 2025 · New in role · Needs visible wins in the first 2 years</div>
       <div class="pm-inner">
         <div class="pm-inner-col g">
           <h6>Why He Buys</h6>
-          <div class="pm-bullet">Needs a fast win in first 6 months to prove himself in this role</div>
+          <div class="pm-bullet">Needs fast wins to prove himself in this role</div>
           <div class="pm-bullet">Personal mandate to modernize procurement — this is his transformation story</div>
           <div class="pm-bullet">Wants procurement seen as strategic, not overhead</div>
         </div>
@@ -601,7 +601,7 @@
         </div>
         <div class="pm-section r">
           <h6>What to Overcome</h6>
-          <div class="pm-bullet">Needs a specific ROI model — no vague "up to X%" language</div>
+          <div class="pm-bullet">Needs a specific ROI model</div>
           <div class="pm-bullet">Will compare vs. other budget initiatives competing for the same pool</div>
         </div>
         <span class="pm-action">→ 1-pager only: payback period, 3-year NPV, cost per transaction delta</span>
@@ -620,10 +620,10 @@
         </div>
         <div class="pm-section r">
           <h6>What to Overcome</h6>
-          <div class="pm-bullet">Not directly involved — never go around Shilpan to reach her</div>
-          <div class="pm-bullet">A failed vendor story hurts Shilpan and her transformation narrative</div>
+          <div class="pm-bullet">She wants GM to prosper, and vanity in front of other CEOs</div>
+          <div class="pm-bullet">She wants to be known as the CEO who guided GM into a new AI Era</div>
         </div>
-        <span class="pm-action">→ Get executive air cover through Shilpan. Make him the hero — she follows.</span>
+        <span class="pm-action">→ Shilpan needs her support</span>
       </div>
 
       <!-- Jeff Morrison — SVP Purchasing -->
@@ -642,7 +642,7 @@
           <div class="pm-bullet">"Will this replace my team?" — address adoption anxiety early</div>
           <div class="pm-bullet">Change management burden on an already stretched team</div>
         </div>
-        <span class="pm-action">→ Make him a co-author of the success story. His team's wins = his wins.</span>
+        <span class="pm-action">→ Make him a co-author of the success story. His team's wins = he wins.</span>
       </div>
 
       <!-- Dave Richardson — SVP Software -->
@@ -678,7 +678,7 @@
         <div class="pm-section r">
           <h6>What to Overcome</h6>
           <div class="pm-bullet">Data privacy, AI liability, DPA — needs full package before signing</div>
-          <div class="pm-bullet">Legal is the #1 killer of late-stage deals — start in Week 3, not Week 12</div>
+          <div class="pm-bullet">Legal could be a killer of a late-stage deal — start in Week 3</div>
         </div>
         <span class="pm-action">→ Initiate DPA and AI governance one-pager in Week 3. Never leave legal to the end.</span>
       </div>
@@ -810,7 +810,7 @@
   var stages = [
     { num:'01', name:'Discovery', weeks:'Week 1–2',
       goal:'Understand the real pain — not what they say first, but what keeps them up at night.',
-      actions:['Open: "Walk me through what happens when an employee needs to buy something in your indirect categories today"','Ask: "Where does the process break down most?" — stay silent and let them
+      actions:['Open: "Walk me through what happens when an employee needs to buy something in your indirect categories today"','Ask: "Where does the process takes up most time?" — stay silent and let them
   talk','Ask: "If nothing changes in 12 months, what does that mean for your team?"','Close by summarizing their pain in their own words — show you listened'],
       exits:['Top 3 pain points identified in Shilpan\'s own language','Initial stakeholder map drafted','Next meeting booked before hanging up'] },
     { num:'02', name:'Qualification', weeks:'Week 2–3',
