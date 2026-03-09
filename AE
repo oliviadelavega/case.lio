@@ -1,0 +1,323 @@
+          <div class="pm-bullet">Fear of failed IT projects damaging his early tenure</div>                                                                                                                    
+          <div class="pm-bullet">Needs proof of SAP integration before committing</div>                                                                                                                        
+          <div class="pm-bullet">Will want a pilot before full commitment — plan for it early</div>                                                                                                            
+        </div>    
+      </div>
+      <div class="pm-action">→ Weekly check-ins. Make him co-author of the business case. His internal wins = your expansion.</div>
+    </div>
+
+    <div class="pm-grid">
+      <div class="pm-card">
+        <div class="pm-name">Paul Jacobson</div>
+        <div class="pm-role">EVP &amp; CFO · General Motors</div>
+        <div class="pm-role-badge tr">Economic Buyer</div>
+        <div class="pm-section g">
+          <h6>Why He Signs</h6>
+          <div class="pm-bullet">Hard ROI — payback in Year 1 maps to his cost reduction mandate</div>
+          <div class="pm-bullet">Reducing maverick spend = direct P&amp;L improvement to report to the board</div>
+          <div class="pm-bullet">Headcount-neutral efficiency gain aligns with his workforce cost targets</div>
+        </div>
+        <div class="pm-section r">
+          <h6>What to Overcome</h6>
+          <div class="pm-bullet">Needs a specific ROI model — no vague "up to X%" language</div>
+          <div class="pm-bullet">Will compare vs. other budget initiatives competing for the same pool</div>
+        </div>
+        <span class="pm-action">→ 1-pager only: payback period, 3-year NPV, cost per transaction delta</span>
+      </div>
+
+      <div class="pm-card">
+        <div class="pm-name">Mary Barra</div>
+        <div class="pm-role">Chair &amp; CEO · General Motors</div>
+        <div class="pm-role-badge tb">Executive Sponsor</div>
+        <div class="pm-section g">
+          <h6>Why She Supports It</h6>
+          <div class="pm-bullet">Publicly committed to AI integration across GM — fits transformation narrative</div>
+          <div class="pm-bullet">Procurement efficiency supports her cost targets for reinvestment</div>
+          <div class="pm-bullet">She gave Shilpan the mandate — if he champions it, she backs it</div>
+        </div>
+        <div class="pm-section r">
+          <h6>What to Overcome</h6>
+          <div class="pm-bullet">Not directly involved — never go around Shilpan to reach her</div>
+          <div class="pm-bullet">A failed vendor story hurts Shilpan and her transformation narrative</div>
+        </div>
+        <span class="pm-action">→ Get executive air cover through Shilpan. Make him the hero — she follows.</span>
+      </div>
+
+      <div class="pm-card">
+        <div class="pm-name">Jeff Morrison</div>
+        <div class="pm-role">SVP Global Purchasing · General Motors</div>
+        <div class="pm-role-badge tg">Operational Ally</div>
+        <div class="pm-section g">
+          <h6>Why He Buys</h6>
+          <div class="pm-bullet">Manages 18,000+ suppliers daily — feels the manual pain directly</div>
+          <div class="pm-bullet">Headcount pressure with growing complexity — needs automation</div>
+          <div class="pm-bullet">Supply chain transparency is his stated top priority publicly</div>
+        </div>
+        <div class="pm-section r">
+          <h6>What to Overcome</h6>
+          <div class="pm-bullet">"Will this replace my team?" — address adoption anxiety early</div>
+          <div class="pm-bullet">Change management burden on an already stretched team</div>
+        </div>
+        <span class="pm-action">→ Make him a co-author of the success story. His team's wins = his wins.</span>
+      </div>
+
+      <div class="pm-card">
+        <div class="pm-name">Dave Richardson</div>
+        <div class="pm-role">SVP Software &amp; Engineering · General Motors</div>
+        <div class="pm-role-badge tp">Tech Evaluator</div>
+        <div class="pm-section g">
+          <h6>Why He Approves</h6>
+          <div class="pm-bullet">12 years at Apple — appreciates clean engineering over clunky enterprise software</div>
+          <div class="pm-bullet">Wants to eliminate shadow IT and manual workarounds in procurement</div>
+          <div class="pm-bullet">GM's AI push gives him mandate to approve AI-native tools</div>
+        </div>
+        <div class="pm-section r">
+          <h6>What to Overcome</h6>
+          <div class="pm-bullet">Will probe deeply on SAP integration, SSO, and data residency</div>
+          <div class="pm-bullet">High engineering bar — demo must be flawless, no rough edges</div>
+        </div>
+        <span class="pm-action">→ Bring Solutions Engineer in Week 3. Deliver SOC 2 + SAP doc proactively.</span>
+      </div>
+
+      <div class="pm-card">
+        <div class="pm-name">Grant Dixton</div>
+        <div class="pm-role">Chief Legal &amp; Public Policy · General Motors</div>
+        <div class="pm-role-badge to">Contract Gate</div>
+        <div class="pm-section g">
+          <h6>Why He Signs</h6>
+          <div class="pm-bullet">Reduces compliance risk in indirect procurement — audit exposure shrinks</div>
+          <div class="pm-bullet">AI governance documentation gives him the paper trail he needs</div>
+          <div class="pm-bullet">Ex-GC at Boeing &amp; Activision — experienced with large contracts, moves fast if prepared</div>
+        </div>
+        <div class="pm-section r">
+          <h6>What to Overcome</h6>
+          <div class="pm-bullet">Data privacy, AI liability, DPA — needs full package before signing</div>
+          <div class="pm-bullet">Legal is the #1 killer of late-stage deals — start in Week 3, not Week 12</div>
+        </div>
+        <span class="pm-action">→ Initiate DPA and AI governance one-pager in Week 3. Never leave legal to the end.</span>
+      </div>
+    </div>
+
+  </div>
+  </section>
+
+  <!-- ════════════════════════ 04 EXPAND ════════════════════════ -->
+  <section class="sec" id="expand">
+  <div class="wrap">
+    <div class="lbl"><span class="dot"></span> 04 Expand Account</div>
+    <h2>Land &amp; Expand — €50k → €500k</h2>
+    <p class="sec-sub">The signature is the starting line. Stay close, sell on their needs — not your roadmap — and let early wins pull expansion.</p>
+
+    <!-- Charts -->
+    <div class="expand-charts">
+      <div class="chart-box">
+        <h4>Phase 1 — €50k to €150k</h4>
+        <p class="chart-sub">Months 1–12 · Sequential module activation, one BU</p>
+        <canvas id="chart1" height="240"></canvas>
+      </div>
+      <div class="chart-box">
+        <h4>Phase 2 — €150k to €500k</h4>
+        <p class="chart-sub">Months 12–36 · Platform depth + organizational breadth</p>
+        <canvas id="chart2" height="240"></canvas>
+      </div>
+    </div>
+
+    <!-- Levers -->
+    <div class="levers-row">
+      <div>
+        <div class="levers-col-title lv1-title">Phase 1 Levers</div>
+        <div class="lever la">...</div>
+        <div class="lever lb">...</div>
+        <div class="lever lc">...</div>
+      </div>
+      <div>
+        <div class="levers-col-title lv2-title">Phase 2 Levers</div>
+        <div class="lever la">...</div>
+        <div class="lever lb">...</div>
+        <div class="lever ld_">...</div>
+      </div>
+    </div>
+
+    <!-- Principles -->
+    <div class="lbl"><span class="dot"></span> What Makes Expansion Work</div>
+    <div class="principles">
+      <div class="pr">01 — Stay closer than a consultant</div>
+      <div class="pr">02 — Every QBR is a sales meeting</div>
+      <div class="pr">03 — Sell on their needs, not your roadmap</div>
+      <div class="pr">04 — Make Shilpan a hero</div>
+      <div class="pr">05 — Anchor every expansion to ROI</div>
+      <div class="pr">06 — New stakeholders = new budget</div>
+    </div>
+  </div>
+  </section>
+
+  <!-- ════════════════════════ APPENDIX ════════════════════════ -->
+  <div class="appendix" id="appendix">
+  <div class="wrap">
+    <div class="lbl">Appendix — Sales Frameworks</div>
+    <h2>MEDDIC &amp; TED Reference</h2>
+
+    <div class="fw-grid">
+      <div class="fw">
+        <div class="fw-ttl btl">MEDDIC — Qualification Framework</div>
+        <div class="mrow"><div class="mltr">M</div> Metrics → GM: avg cycle time, % maverick spend, compliance failure rate</div>
+        <div class="mrow"><div class="mltr">E</div> Economic Buyer → Shilpan + Paul Jacobson (CFO)</div>
+        <div class="mrow"><div class="mltr">D</div> Decision Criteria → Savings (CFO), SAP integration (IT), speed to value (Shilpan)</div>
+        <div class="mrow"><div class="mltr">D</div> Decision Process → Tech committee? IT security? Legal DPA? Find out in Week 2.</div>
+        <div class="mrow"><div class="mltr">I</div> Identify Pain → Cost efficiency mandate + new CPO = board priority</div>
+        <div class="mrow"><div class="mltr">C</div> Champion → Shilpan. New role = needs a win = perfectly aligned incentive.</div>
+      </div>
+
+      <div class="fw">
+        <div class="fw-ttl ptl">TED — Uncovering 2nd &amp; 3rd Level Pain</div>
+        Level 1 — Surface · Tell me about…
+          "Tell me about how your team handles an indirect purchase request today."
+        Level 2 — Business Impact · Explain to me…
+          "Explain what that means for buyers managing thousands of requests a year."
+        Level 3 — Root Consequence · Describe…
+          "Describe what it means for procurement's perception when the CFO asks for savings..."
+        ★ Once you know Level 3 pain, you're selling credibility — not software.
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <footer>
+    <div class="wrap">
+      <div class="fl">lio</div>
+      <p>Agentic Workforce Platform for Procurement · lio.ai</p>
+      <p>AE Interview Case Study · Olivia</p>
+    </div>
+  </footer>
+
+  <script>
+  // ═══ STAGE DATA ═══════════════════
+  var stages = [
+    { num:'01', name:'Discovery', weeks:'Week 1–2',
+      goal:'Understand the real pain — not what they say first, but what keeps them up at night.',
+      actions:['Open: "Walk me through what happens when an employee needs to buy something..."',
+               'Ask: "Where does the process break down most?" — stay silent and let them talk',
+               'Ask: "If nothing changes in 12 months, what does that mean for your team?"',
+               'Close by summarizing their pain in their own words — show you listened'],
+      exits:['Top 3 pain points identified in Shilpan\'s own language',
+             'Initial stakeholder map drafted',
+             'Next meeting booked before hanging up'] },
+    { num:'02', name:'Qualification', weeks:'Week 2–3', ... },
+    { num:'03', name:'Demo + Business Case', weeks:'Week 3–5', ... },
+    { num:'04', name:'Stakeholder Alignment', weeks:'Week 5–8', ... },
+    { num:'05', name:'Pilot / POV', weeks:'Week 6–10', ... },
+    { num:'06', name:'Commercial', weeks:'Week 10–12', ... },
+    { num:'07', name:'Legal & Sign', weeks:'Week 12–14', ... },
+    { num:'08', name:'Closed-Won', weeks:'Day 90–100', ... }
+  ];
+
+  function selTab(i) {
+    var tabs = document.getElementsByClassName('tab');
+    for (var t = 0; t < tabs.length; t++) {
+      tabs[t].classList.toggle('active', t === i);
+    }
+    var s = stages[i];
+    var h = '';
+    h += '<div class="sp-goal-lbl">Stage Goal</div>';
+    h += '<div class="sp-goal">' + s.goal + '</div>';
+    h += '<div class="sp-cols">';
+    h += '<div class="sp-col"><h5>Key Actions</h5><ul>';
+    for (var a = 0; a < s.actions.length; a++) { h += '<li>' + s.actions[a] + '</li>'; }
+    h += '</ul></div>';
+    h += '<div class="sp-col"><h5>Exit Criteria</h5><ul>';
+    for (var e = 0; e < s.exits.length; e++) { h += '<li>' + s.exits[e] + '</li>'; }
+    h += '</ul></div></div>';
+    document.getElementById('panelWrap').innerHTML = h;
+  }
+  selTab(0);
+
+  // ═══ CHARTS ═══════════════════════
+  window.addEventListener('load', function() {
+    var attempts = 0;
+    function tryInit() {
+      if (typeof Chart === 'undefined') {
+        attempts++;
+        if (attempts < 20) setTimeout(tryInit, 300);
+        return;
+      }
+      Chart.defaults.font.family = 'Inter';
+      Chart.defaults.color = '#8892B0';
+
+      var tooltipOpts = {
+        backgroundColor: '#0B0F24',
+        borderColor: 'rgba(74,143,255,0.2)',
+        borderWidth: 1,
+        titleColor: '#EEF2FF',
+        bodyColor: '#8892B0',
+        padding: 10,
+        callbacks: {
+          footer: function(items) {
+            var t = 0;
+            for (var i = 0; i < items.length; i++) { t += items[i].parsed.y; }
+            return 'Total: €' + t + 'k ARR';
+          }
+        }
+      };
+
+      var scaleOpts = function(max) {
+        return {
+          x: { stacked: true, grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#4A5578', font: { size: 10 } } },
+          y: { stacked: true, max: max, grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#4A5578', font: { size: 10 },
+               callback: function(v) { return '€' + v + 'k'; } } }
+        };
+      };
+
+      var legendOpts = {
+        position: 'bottom',
+        labels: { color: '#8892B0', font: { size: 10 }, boxWidth: 10, padding: 10 }
+      };
+
+      // Chart 1 — Phase 1: €50k → €150k
+      var c1 = document.getElementById('chart1');
+      if (c1) {
+        new Chart(c1, {
+          type: 'bar',
+          data: {
+            labels: ['M1','M2','M3','M4','M5','M6','M7','M8','M9','M10','M11','M12'],
+            datasets: [
+              { label: 'Guided Buying',          data: [50,50,50,50,50,50,50,50,50,50,50,50],    backgroundColor: 'rgba(74,143,255,0.75)' },
+              { label: 'Operational Automation', data: [0,0,0,0,40,40,40,40,40,40,40,40],        backgroundColor: 'rgba(124,92,252,0.75)' },
+              { label: 'AI Negotiation',         data: [0,0,0,0,0,0,0,60,60,60,60,60],           backgroundColor: 'rgba(16,212,142,0.75)' }
+            ]
+          },
+          options: { responsive: true, maintainAspectRatio: false,
+            interaction: { mode: 'index', intersect: false },
+            plugins: { legend: legendOpts, tooltip: tooltipOpts },
+            scales: scaleOpts(180)
+          }
+        });
+      }
+
+      // Chart 2 — Phase 2: €150k → €500k (distinct color palette)
+      var c2 = document.getElementById('chart2');
+      if (c2) {
+        new Chart(c2, {
+          type: 'bar',
+          data: {
+            labels: ['M12','M15','M18','M21','M24','M27','M30','M33','M36'],
+            datasets: [
+              { label: 'Phase 1 ARR (existing)',  data: [150,150,150,150,150,150,150,150,150], backgroundColor: 'rgba(100,120,180,0.3)' },
+              { label: 'Strategic Intelligence',  data: [0,100,100,100,100,100,100,100,100],  backgroundColor: 'rgba(255,140,66,0.8)' },
+              { label: 'NA Full Rollout',          data: [0,0,0,120,120,120,120,120,120],      backgroundColor: 'rgba(0,210,200,0.8)' },
+              { label: 'Global + Enterprise',      data: [0,0,0,0,0,0,130,130,130],            backgroundColor: 'rgba(245,200,66,0.85)' }
+            ]
+          },
+          options: { responsive: true, maintainAspectRatio: false,
+            interaction: { mode: 'index', intersect: false },
+            plugins: { legend: legendOpts, tooltip: tooltipOpts },
+            scales: scaleOpts(580)
+          }
+        });
+      }
+    }
+    tryInit();
+  });
+  </script>
+  </body>
+  </html>
+
